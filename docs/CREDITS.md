@@ -15,9 +15,7 @@ Thank you to the people who share their work with the game-development community
 | --- | --- | --- |
 | Humanizer addon | Elissa Moeller; [NitroxNova/Humanizer](https://github.com/NitroxNova/humanizer); bundled plugin version 2.2.0 | [Unlicense](licenses/humanizer-Unlicense.txt) for addon code |
 | MakeHuman / MPFB body and equipment | [MakeHuman Community](https://www.makehumancommunity.org/), Data Collection AB, Joel Palmius, Jonas Hauquier | Inspected mesh headers declare CC0; material notices need separate treatment, below |
-| Terrain3D | Cory Petkovsek / Tokisan Games, Roope Palmroos / Outobugi Games and [contributors](https://github.com/TokisanGames/Terrain3D) | [MIT](licenses/terrain3d-MIT.txt) |
 | Stylized Nature MegaKit Standard | [Quaternius](https://quaternius.com/); Godot Asset Store package | [CC0 1.0](licenses/quaternius-CC0.txt) |
-| Starter Kit City Builder | [Kenney](https://kenney.nl/); bundled source archive recorded in NO9_SOURCE.json | [MIT template](licenses/kenney-city-builder-MIT.txt); README/source record describe models as CC0 |
 | Nature & Terrain — Free Edition | [Avramania](https://www.avramania.com/); Nature_Terrain_Free archive | [CC0 1.0](licenses/avramania-CC0.txt) |
 | Free 3D Modular Game Assets for Prototyping | Raphael Gonçalves / [Rgsdev](https://www.patreon.com/rgsdev) | [CC0](licenses/rgsdev-prototyping-CC0.txt) |
 | Free Low Poly Vehicles Pack | Raphael Gonçalves / Rgsdev | [CC0](licenses/rgsdev-vehicles-CC0.txt) |
@@ -59,9 +57,8 @@ Source locations in the private development tree:
 | Oswald | The Oswald Project Authors, 2016; [upstream](https://github.com/googlefonts/OswaldFont) | [SIL OFL 1.1](licenses/oswald-OFL.txt) |
 | Barlow Condensed | The Barlow Project Authors, 2017; [upstream](https://github.com/jpt/barlow) | [SIL OFL 1.1](licenses/barlowcondensed-OFL.txt) |
 | Rajdhani | Indian Type Foundry, 2014 | [SIL OFL 1.1](licenses/rajdhani-OFL.txt) |
-| Lilita, bundled in City Builder | Juan Montoreano, 2011 | [SIL OFL 1.1](licenses/kenney-city-builder-font-OFL.txt) |
 
-The first five are the local jersey-font assets. Lilita is acknowledged as a font found in the imported City Builder pack, without claiming it is the game's current UI font.
+These are the local jersey-font assets.
 
 ## Editor and development tools
 
