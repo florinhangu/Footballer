@@ -241,33 +241,32 @@ Godot runs the game; ChatGPT and Codex assist its development. No9 remains an in
 
 Thank you to the creators and communities who make these tools and assets available.
 
-| Contribution | Creator / source | Recorded license |
-| --- | --- | --- |
-| **Godot Engine** | Juan Linietsky, Ariel Manzur and the [Godot contributors](https://github.com/godotengine/godot) | MIT |
-| **Humanizer** | Elissa Moeller and the [Humanizer community](https://github.com/NitroxNova/humanizer) | Unlicense for addon code |
-| **MakeHuman / MPFB content** | [MakeHuman Community](https://www.makehumancommunity.org/), Data Collection AB, Joel Palmius and Jonas Hauquier | CC0 on inspected body/clothing/hair/footwear meshes; individual material notices vary |
-| **Terrain3D** | Cory Petkovsek / Tokisan Games, Roope Palmroos / Outobugi Games and [contributors](https://github.com/TokisanGames/Terrain3D) | MIT |
-| **Stylized Nature MegaKit** | [Quaternius](https://quaternius.com/) | CC0 1.0 |
-| **Starter Kit City Builder** | [Kenney](https://kenney.nl/) | CC0 models; MIT template |
-| **Nature & Terrain — Free Edition** | [Avramania](https://www.avramania.com/) | CC0 1.0 |
-| **Modular prototyping / vehicle packs** | Raphael Gonçalves, [Rgsdev](https://www.patreon.com/rgsdev) | CC0 |
-| **Stylized Grass meshes and shader** | [StayAtHomeDev](https://stayathomedev.itch.io/stylized-grass-shader) | MIT |
-| **Tabler Icons** | Paweł Kuna and the [Tabler contributors](https://github.com/tabler/tabler-icons) | MIT |
-| **Flag Icons** | Panayiotis Lipiridis and [flag-icons contributors](https://github.com/lipis/flag-icons) | MIT |
-| **Jersey fonts** | Dharma Type; Anton, Oswald and Barlow project authors; Indian Type Foundry | SIL Open Font License 1.1 |
+| Contribution | Creator / source |
+| --- | --- |
+| **Godot Engine** | Juan Linietsky, Ariel Manzur and the [Godot contributors](https://github.com/godotengine/godot) |
+| **Humanizer** | Elissa Moeller and the [Humanizer community](https://github.com/NitroxNova/humanizer) |
+| **MakeHuman / MPFB content** | [MakeHuman Community](https://www.makehumancommunity.org/), Data Collection AB, Joel Palmius and Jonas Hauquier |
+| **Stylized Nature MegaKit** | [Quaternius](https://quaternius.com/) |
+| **Starter Kit City Builder** | [Kenney](https://kenney.nl/) |
+| **Nature & Terrain — Free Edition** | [Avramania](https://www.avramania.com/) |
+| **Modular prototyping / vehicle packs** | Raphael Gonçalves, [Rgsdev](https://www.patreon.com/rgsdev) |
+| **Stylized Grass meshes and shader** | [StayAtHomeDev](https://stayathomedev.itch.io/stylized-grass-shader) |
+| **Tabler Icons** | Paweł Kuna and the [Tabler contributors](https://github.com/tabler/tabler-icons) |
+| **Flag Icons** | Panayiotis Lipiridis and [flag-icons contributors](https://github.com/lipis/flag-icons) |
+| **Jersey fonts** | Dharma Type; Anton, Oswald and Barlow project authors; Indian Type Foundry |
 
 <details>
 <summary><b>Editor tools and additional acknowledgements</b></summary>
 
-| Tool | Creator / source | Recorded license |
-| --- | --- | --- |
-| Road Generator | Moo-Ack! Productions / TheDuckCow — [source](https://github.com/TheDuckCow/godot-road-generator) | MIT |
-| RichText3D | Matias Szylkowski — [source](https://github.com/mszylkowski/rich-text-3d-godot) | MIT |
-| Material Layers | Foyezes — [source](https://github.com/Foyezes/Godot-Material-Layers-Legacy) | MIT |
-| Ragdoll Generator | Manik Sharma — [source](https://github.com/Manik2607/auto-ragdoll) | MIT |
-| Low Poly Terrain Builder | Fabian S / 78sForge — [source](https://github.com/78sForge/LowPolyTerrainBuilder) | MIT |
-| M.A.V.S | Millu30 / Gidan — [source](https://github.com/Dente222/MAdvanced-Vehicle-Controller) | MIT |
-| Weather System (Lite) | Sean Elovirta | MIT |
+| Tool | Creator / source |
+| --- | --- |
+| Road Generator | Moo-Ack! Productions / TheDuckCow — [source](https://github.com/TheDuckCow/godot-road-generator) |
+| RichText3D | Matias Szylkowski — [source](https://github.com/mszylkowski/rich-text-3d-godot) |
+| Material Layers | Foyezes — [source](https://github.com/Foyezes/Godot-Material-Layers-Legacy) |
+| Ragdoll Generator | Manik Sharma — [source](https://github.com/Manik2607/auto-ragdoll) |
+| Low Poly Terrain Builder | Fabian S / 78sForge — [source](https://github.com/78sForge/LowPolyTerrainBuilder) |
+| M.A.V.S | Millu30 / Gidan — [source](https://github.com/Dente222/MAdvanced-Vehicle-Controller) |
+| Weather System (Lite) | Sean Elovirta |
 
 Tools and packs present in the development repository are acknowledged here even when not active in every scene.
 
