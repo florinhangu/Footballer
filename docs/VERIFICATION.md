@@ -48,3 +48,7 @@ The transition change introduced by commit 8fada4279e660b2c8dd5dfac5a7dc9f0994c3
 The old boot-replacement report preserved length but increased width by about 6.1% and height by about 10.5%; the corresponding old asset is no longer current. Restoring it globally would reintroduce obsolete rig assumptions.
 
 No source recovery, revert, merge or gameplay edit was performed for this page.
+
+## Public presentation boundaries
+
+The working career features are presented as available. Native 3D test pages, players, facilities and stadium demonstrations are presented as future development. Match input is exclusively tap and swipe; physical controls and action buttons belong only to developer test pages.
