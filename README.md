@@ -247,7 +247,6 @@ Thank you to the creators and communities who make these tools and assets availa
 | **Humanizer** | Elissa Moeller and the [Humanizer community](https://github.com/NitroxNova/humanizer) |
 | **MakeHuman / MPFB content** | [MakeHuman Community](https://www.makehumancommunity.org/), Data Collection AB, Joel Palmius and Jonas Hauquier |
 | **Stylized Nature MegaKit** | [Quaternius](https://quaternius.com/) |
-| **Starter Kit City Builder** | [Kenney](https://kenney.nl/) |
 | **Nature & Terrain — Free Edition** | [Avramania](https://www.avramania.com/) |
 | **Modular prototyping / vehicle packs** | Raphael Gonçalves, [Rgsdev](https://www.patreon.com/rgsdev) |
 | **Stylized Grass meshes and shader** | [StayAtHomeDev](https://stayathomedev.itch.io/stylized-grass-shader) |
