@@ -7,7 +7,7 @@
 
 Offline player career · Tap & swipe football · Clubs, seasons and competitions · Native 3D in development
 
-[The game today](#the-game-today) · [Touch controls](#tap-swipe-play) · [Latest development](#latest-development--12-october-2026) · [3D development](#the-next-chapter--3d) · [Public builds](https://github.com/florinhangu/Footballer/releases) · [Credits](#credits--thanks)
+[The game today](#the-game-today) · [Touch controls](#tap-swipe-play) · [Latest development](#latest-development--13-october-2026) · [3D development](#the-next-chapter--3d) · [Public builds](https://github.com/florinhangu/Footballer/releases) · [Credits](#credits--thanks)
 
 </div>
 
@@ -26,6 +26,7 @@ The current career uses **2D matches with tap and swipe controls**. Native 3D pl
 | **Player career** | Create a footballer, choose position and preferred foot, attend trials, earn a contract and advance week by week |
 | **Local saves** | Continue from your saved career |
 | **2D football** | Tap and swipe matches with team AI, goalkeepers, a referee, football restarts, score and clock |
+| **Sprint and energy** | Double-tap sprint in possession, with live sprint-reserve and energy bars linked to player abilities |
 | **Training and recovery** | Interactive exercises, attribute development and weekly energy management |
 | **Club life** | Team information, tactics, fixtures, standings and equipment |
 | **Profile and history** | Attributes, contracts, official match history and trophies |
@@ -48,13 +49,22 @@ The current career uses **2D matches with tap and swipe controls**. Native 3D pl
 
 | Gesture | Match action |
 | --- | --- |
-| **Tap the pitch** | Move the controlled player; dribble when in possession |
+| **Tap the pitch** | Run and dribble toward the selected point while in possession |
+| **Quick double tap nearby** | Sprint toward the selected point while in possession |
 | **Swipe toward a teammate** | Pass |
 | **Long swipe toward a teammate** | Longer / aerial delivery |
 | **Swipe toward the goal** | Shoot |
 | **Tap an opponent in a duel situation** | Attempt a challenge |
 
-The gesture and football context determine the action. When the human-controlled player has possession and stands still, live play pauses so you can choose the next move.
+The gesture and football context determine the action. **Without the ball, AI controls your positioning; tapping an opponent requests a standing tackle.** Pitch taps and swipes do not take over off-ball movement.
+
+While in possession, two nearby taps within **300 ms** request sprint. A new single tap returns to normal running. When the human-controlled player has possession and stands still, live play pauses so you can choose the next move.
+
+The **SPRINT** bar shows the short-burst reserve; **ENERGIE** shows the player's existing energy. Speed and acceleration influence movement, while stamina influences sprint duration, energy cost and reserve recovery. Low energy reduces sprint performance. Reserve recovery does not refill career energy, and paused simulation does not advance either resource.
+
+<img src="media/sprint-energy.png" width="360" alt="Desktop HUD validation with sprint reserve at 49 percent and energy at 78 percent above the existing 2D pitch">
+
+*Godot desktop HUD validation captured on 13 October 2026 at 360 × 640 px. This shows the actual effort component with values calculated by the sprint simulation and the existing 2D renderer in a test harness. It is not an Android-device or full native 3D scene capture.*
 
 Keyboard shortcuts and optional action buttons shown in development pages are testing controls. Normal game menus provide navigation outside live play.
 
@@ -84,14 +94,16 @@ The **20-exercise catalog** covers control, passing, shooting, crossing, running
 
 All 20 catalog entries also have native 3D test routes. They reuse the existing exercise definitions, four attempts and scoring. Test results remain separate from career rewards.
 
-## Latest development — 12 October 2026
+## Latest development — 13 October 2026
 
-This presentation was reviewed on **13 October 2026** against the latest No9 main-branch update, source snapshot **69f47ad**.
+This presentation was reviewed on **13 October 2026** against the latest No9 main-branch update, source snapshot **f7e6b4b**.
 
-The new work expands the native 3D development area:
+The 13 October update adds possession-only sprint and live effort bars to the shared match authority and native free-training sandbox. The earlier 12 October environment work remains in the same source:
 
 | Area | What the latest source contains |
 | --- | --- |
+| **Sprint controls** | Single tap for normal running; nearby rapid double tap for sprint while in possession. Off-ball positioning remains under AI, with opponent-tap tackling |
+| **Live effort HUD** | Separate sprint reserve and energy bars, driven by simulation state, player abilities and real seconds rather than match-tempo multipliers |
 | **Pitch grass** | Short 3D blades, two mowing shades, painted-line handling and denser detail for close, low cameras |
 | **Goals and nets** | Separate portable training-goal and stadium-goal geometry; ball contact drives net deformation and a soft rebound response |
 | **Stadium scoreboards** | Physical score panels with separate home/away headings that follow the score digits |
@@ -103,7 +115,7 @@ The new work expands the native 3D development area:
 
 These entries describe implementations in the development source. They do not establish a new public APK, a completed 3D career release or measured Android performance.
 
-The latest commit contains **no new committed screenshots**. The gallery below retains its existing captures and dates; it does not show the new grass, goals or environment changes as freshly captured images.
+The new desktop HUD capture is shown in the touch-controls section. The training-base and native-player galleries retain their earlier captures and dates; they do not show the new grass, goals or environment changes as freshly captured images.
 
 ## The next chapter — 3D
 
@@ -208,13 +220,16 @@ The preserved Git history begins on **26 September 2026**, with the initial Game
 | **Late September – early October** | Club catalogs, competition structures, equipment experiments and imported-model work |
 | **7–9 October** | Humanizer players, native training exercises, appearance tests and editable previews |
 | **10–11 October** | Shared-authority 3D demonstrations, officials, benches, loading and cameras |
-| **12 October** | Public Footballer presentation; expanded environments, grass, goals, equipment and match presentation in the latest No9 update |
+| **12 October** | Public Footballer presentation; expanded environments, grass, goals, equipment and match presentation |
+| **13 October** | Possession-only double-tap sprint, live effort HUD, focused desktop regressions and a complete repository inventory/source audit |
 
 The next stage is to connect the native 3D work to the player's complete career, with readable touch interaction, reliable loading and performance measured on Android.
 
 ## What has been verified
 
-The figures below are **historical desktop results recorded in project documentation**. They were not rerun for this README and do not validate every change in the 12 October snapshot.
+The sprint update passed **190 checks with zero failures** in four focused desktop runs with Godot 4.7.2: sprint/energy (39), pointer input (9), existing gestures (13) and match integrity (129). These checks cover resource consumption and recovery, player abilities, possession-only controls, real-second rates, the HUD and the sprint state in the 3D presentation buffer. They do not establish Android performance or a fully tested native 3D career.
+
+The figures below are **historical desktop results recorded in project documentation**. They were not rerun for this README and do not validate every current change:
 
 | Recorded scenario | Reported result |
 | --- | --- |
@@ -229,7 +244,7 @@ A previous GTX 1050 Compatibility-renderer measurement with 22 players and a nat
 
 Broader AI suites have recorded failures. Controlled scenarios and individual simulated matches do not establish overall balance or complete readiness.
 
-[Historical verification evidence and remaining work →](docs/VERIFICATION.md)
+[Verification evidence and remaining work →](docs/VERIFICATION.md)
 
 ## Beyond the scoreboard — the No9 promise
 
@@ -259,7 +274,7 @@ Future releases should identify the exact version, tested devices, included game
 
 **Your first contract is only the beginning.**
 
-*Footballer is the public presentation and release hub. The private game source is maintained separately. Page updated 13 October 2026 from No9 source snapshot 69f47ad.*
+*Footballer is the public presentation and release hub. The private game source is maintained separately. Page updated 13 October 2026 from No9 source snapshot f7e6b4b.*
 
 ## Powered by
 

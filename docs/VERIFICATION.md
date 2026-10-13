@@ -1,8 +1,24 @@
 # Verification notes
 
-Reviewed: 12 October 2026. Source baseline: b52aeca28f3a7ac83cf2ed1a32a8393217d53d18.
+Reviewed: 13 October 2026. Current source baseline: f7e6b4bcc785e967677dd2d4d3a15ebc0e5fc0d5. The earlier presentation review used b52aeca28f3a7ac83cf2ed1a32a8393217d53d18.
 
-This presentation was prepared through a read-only source/history review. Godot was not run, an APK was not built, and the desktop tests below were not rerun. Reported results come from existing project documentation.
+The original presentation used a read-only source/history review. On 13 October, the sprint implementation was validated in focused desktop runs with Godot 4.7.2 and isolated test storage. The HUD was also rendered and visually inspected. No APK was built or tested on an Android device. Earlier simulation/performance results remain historical documentation, separate from the new focused checks.
+
+## Sprint update — executed desktop checks
+
+| Test | Checks | Failures |
+| --- | ---: | ---: |
+| player_sprint_regression | 39 | 0 |
+| player_sprint_input_regression | 9 | 0 |
+| football_gestures_regression | 13 | 0 |
+| match_integrity_regression | 129 | 0 |
+| Total | 190 | 0 |
+
+The checks cover gesture recognition, immediate first-tap movement, possession-only sprint, off-ball AI, opponent-tap tackling, canceled/multiple pointers, resource exhaustion/recovery, speed/acceleration/stamina effects, pause and stationary-possession freeze, real-second rates at 1.75× and 2.75× tempo, exact HUD values, narrow-screen layout and the sprint gear in the 3D history buffer. These checks do not constitute a full native 3D scene run or Android acceptance test.
+
+The source audit inventoried all 10,739 tracked files in the pre-sprint baseline, inspected 485 GDScript files and checked external references in 152 text scenes. Binary assets were inventoried rather than individually rendered. The audit identified local sky/water/ground resources excluded from Git; full native 3D verification requires the complete local asset installation.
+
+The [new HUD capture](../media/sprint-energy.png) shows the actual component and existing 2D renderer in a desktop test harness, not a released APK.
 
 ## Evidence and scope
 
@@ -17,7 +33,7 @@ These paths identify documents in the development source; they are not public do
 
 The current source uses Humanizer-based actors. Historical Lunin/exported-male GLBs, their old character controller and the old model3d/football_motion smoke scripts are absent from the reviewed tree. Their old screenshots and test results do not establish current model quality.
 
-## Reported results
+## Earlier reported results
 
 - 10 October autonomous demo: 90 seconds, 31 passes, 15 shots, eight ground goalkeeper distributions, score 1–1.
 - 11 October official-AI demo: 90 seconds, 11 passes, seven crosses, four shots, 14 headers, 12 received passes, seven goalkeeper distributions, score 1–0.
@@ -47,8 +63,8 @@ The transition change introduced by commit 8fada4279e660b2c8dd5dfac5a7dc9f0994c3
 
 The old boot-replacement report preserved length but increased width by about 6.1% and height by about 10.5%; the corresponding old asset is no longer current. Restoring it globally would reintroduce obsolete rig assumptions.
 
-No source recovery, revert, merge or gameplay edit was performed for this page.
+The sprint implementation is in the private game source. This public repository contains the presentation, documentation and screenshots.
 
 ## Public presentation boundaries
 
-The working career features are presented as available. Native 3D test pages, players, facilities and stadium demonstrations are presented as future development. Match input is exclusively tap and swipe; physical controls and action buttons belong only to developer test pages.
+The working career features are presented as available. Native 3D test pages, players, facilities and stadium demonstrations are presented as future development. Match input is exclusively tap and swipe, with rapid double-tap sprint only in possession. Off-ball positioning stays under AI and opponent taps request a tackle; physical controls and action buttons belong only to developer test pages.

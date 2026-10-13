@@ -1,9 +1,10 @@
 # Screenshot provenance
 
-The images are unaltered copies of existing No9: Day One development captures from source snapshot b52aeca28f3a7ac83cf2ed1a32a8393217d53d18. Newly selected images were visually inspected before publication.
+The earlier gallery images are unaltered copies of No9: Day One development captures from source snapshot b52aeca28f3a7ac83cf2ed1a32a8393217d53d18. The new sprint/energy HUD image is an unaltered copy from source snapshot f7e6b4bcc785e967677dd2d4d3a15ebc0e5fc0d5. All selected images were visually inspected before publication.
 
 | Published file | Original development path | Last commit date (UTC) | Context |
 | --- | --- | --- | --- |
+| media/sprint-energy.png | docs/audits/player-effort-hud.png | 2026-10-13 | Actual HUD and existing 2D renderer in a 360 × 640 desktop test harness; values calculated by the sprint simulation; not an APK or full 3D scene capture |
 | media/career.png | docs/screenshots/career.png | 2026-10-04 | Career home / trial |
 | media/match-2d.png | docs/screenshots/match.png | 2026-10-04 | Existing 2D match |
 | media/training-campus.png | docs/model25d/training-premium/overview.png | 2026-10-11 | Premium test-campus overview |
@@ -23,8 +24,8 @@ No newer committed player-action image than the 9 October set was found in the c
 
 The gallery includes separate original, classic, academy, performance and premium bases. Stadium scene variants are described in the README without substituting a training-base image for a stadium image.
 
-The screenshots show Romanian UI. Keyboard or action buttons visible in test screenshots are developer testing tools: actual match controls are tap and swipe only.
+The screenshots show Romanian UI. Keyboard or action buttons visible in test screenshots are developer testing tools: actual match controls are tap and swipe, including possession-only rapid double-tap sprint. Off-ball positioning is under AI, with opponent-tap tackling.
 
-Source paths are provenance records, not public image URLs. Copies live in this public repository so readers do not need the private source. No new screenshot or promotional image was generated.
+Source paths are provenance records, not public image URLs. Copies live in this public repository so readers do not need the private source. The sprint/energy image was rendered with Godot on 13 October. No promotional image was generated with AI.
 
 Logos have their own [source and terms](branding/README.md).
