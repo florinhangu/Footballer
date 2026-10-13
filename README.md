@@ -1,382 +1,251 @@
 <div align="center">
 
 # No9: Day One
+
 ### Your first trial. Your first contract. Your story on the pitch.
 
-**A football career begins with a chance.**
+**A football career begins with a chance. What you do with it is up to you.**
 
-Offline player career · Tap & swipe football · Clubs, seasons and competitions · Native 3D in development
+Offline player career · Real football competitions · Touch-first matches · Native 3D development
 
-[The game today](#the-game-today) · [Touch controls](#tap-swipe-play) · [Latest development](#latest-development--13-october-2026) · [3D development](#the-next-chapter--3d) · [Public builds](https://github.com/florinhangu/Footballer/releases) · [Credits](#credits--thanks)
+<img src="media/snapshots/Screenshot%202026-10-13%20190839.png" width="35%" alt="No9 live 2D football match"> <img src="media/snapshots/Screenshot%202026-10-13%20185351.png" width="35%" alt="No9 native 3D football demonstration">
+
+**[Explore the game](#the-footballer-is-you) · [See the screenshots](#official-game-snapshots) · [Public releases](https://github.com/florinhangu/Footballer/releases)**
 
 </div>
 
-## A career with your name on it
+## The footballer is you
 
-You are the footballer. Create your identity, choose your position and career country, attend trials and work toward your first club contract. Then build your place in the team through preparation, performances and the decisions you make between matches.
+**No9: Day One** is a football player-career game built for mobile. You are not the club manager watching from the sidelines. You create a footballer, earn your first opportunity at a trial, sign a contract, train for your place in the squad and live with the consequences of every match and every season.
 
-**No9: Day One** is an offline football player-career game. Training, recovery, equipment, club life and fixtures share the same weekly progression. Around your player, leagues develop, cup rounds advance, clubs change divisions and international qualification opens new opportunities. Your career is saved locally.
+Start young. Find a team willing to give you a chance. Grow your abilities, earn minutes, make the most of the ball and decide where your career will go. Beyond your own pitch, leagues keep moving: tables change, clubs earn promotion or face relegation, cup campaigns continue and international opportunities emerge.
 
-The current career uses **2D matches with tap and swipe controls**. Native 3D players, training exercises, facilities and match demonstrations are available in dedicated development pages. Bringing that presentation into the complete career remains the next stage.
+The game is designed around **offline progression and local saves**. The main career experience currently plays matches in **2D**. A separate, interactive **native 3D** development experience already includes footballers, training, facilities and demonstration matches, with full career integration as a future goal.
 
-## The game today
+## The experience today
 
-| System | Current experience |
-| --- | --- |
-| **Player career** | Create a footballer, choose position and preferred foot, attend trials, earn a contract and advance week by week |
-| **Local saves** | Continue from your saved career |
-| **2D football** | Tap and swipe matches with team AI, goalkeepers, a referee, football restarts, score and clock |
-| **Sprint and energy** | Double-tap sprint in possession, with live sprint-reserve and energy bars linked to player abilities |
-| **Training and recovery** | Interactive exercises, attribute development and weekly energy management |
-| **Club life** | Team information, tactics, fixtures, standings and equipment |
-| **Profile and history** | Attributes, contracts, official match history and trophies |
-| **Football world** | Domestic leagues and cups, promotion/relegation, continental club competitions and national teams |
-| **Phone and city** | Messages, agent interactions and the existing service pages |
+| Your journey | On the pitch | The football world |
+| :-- | :-- | :-- |
+| Create your player and start at youth trials | Live 2D matches with football AI and match officials | Domestic leagues, cups and changing tables |
+| Compete for contracts and a starting place | Tap, double tap and swipe controls | Regional divisions, play-offs and promotion battles |
+| Develop attributes through training and recovery | Passing, crossing, shooting, challenges and set pieces | International club and national-team competitions |
+| Follow energy, form, club life and history | Sprint and energy reserves tied to player abilities | Thousands of clubs across six geographic regions |
+| Track your club, fixtures, career and trophies | Native 3D practice and match demonstrations | A world that continues through successive seasons |
 
-<table>
-<tr><th>Your first opportunity</th><th>The match</th></tr>
-<tr>
-<td><img src="media/career.png" width="300" alt="Career home showing the next trial and weekly training"></td>
-<td><img src="media/match-2d.png" width="300" alt="2D trial match with players, referee, score and clock"></td>
-</tr>
-</table>
+### From the first trial to the next season
 
-*Existing career captures committed on 4 October 2026. Screenshots show Romanian UI; this presentation is in English. Individual APKs may contain different development snapshots.*
+Your career begins by defining a player: position, preferred foot, country and footballing identity. Youth trials provide the first test. Contract offers open the door to a club, where every week brings another training decision, upcoming fixture, possible injury or new challenge.
+
+Your profile keeps track of skills, contracts, official match history and trophies. Weekly scheduling connects training, recovery, matches and club responsibilities. The **60-week season structure** keeps domestic and international football moving in the same career.
+
+<div align="center">
+<img src="media/snapshots/Screenshot%202026-10-13%20184846.png" width="27%" alt="Player profile and football abilities">
+<img src="media/snapshots/Screenshot%202026-10-13%20184932.png" width="27%" alt="Career calendar and football fixtures">
+<img src="media/snapshots/Screenshot%202026-10-13%20184915.png" width="27%" alt="Team tactics and formation">
+</div>
 
 ## Tap. Swipe. Play.
 
-**Match control is exclusively tactile: tap and swipe.**
+On the career pitch, matches unfold in real time. Team-mates and opponents use AI to make runs, support each other, defend and respond to game situations. You influence the game through the footballer you control.
 
-| Gesture | Match action |
-| --- | --- |
-| **Tap the pitch** | Run and dribble toward the selected point while in possession |
-| **Quick double tap nearby** | Sprint toward the selected point while in possession |
-| **Swipe toward a teammate** | Pass |
-| **Long swipe toward a teammate** | Longer / aerial delivery |
-| **Swipe toward the goal** | Shoot |
-| **Tap an opponent in a duel situation** | Attempt a challenge |
+| Gesture | Action |
+| :-- | :-- |
+| **Tap an open area** | Move or dribble there while in possession |
+| **Quick double tap** | Sprint with the ball toward the selected point |
+| **Swipe toward a team-mate** | Play a pass |
+| **Long swipe toward a team-mate** | Deliver a longer / aerial ball |
+| **Swipe toward goal** | Attempt a shot |
+| **Tap an opponent in a duel** | Attempt a standing tackle |
 
-The gesture and football context determine the action. **Without the ball, AI controls your positioning; tapping an opponent requests a standing tackle.** Pitch taps and swipes do not take over off-ball movement.
+**Without the ball, AI manages your footballer's positioning.** You can request a challenge by tapping an opposing player; normal pitch taps do not take over off-ball running.
 
-While in possession, two nearby taps within **300 ms** request sprint. A new single tap returns to normal running. When the human-controlled player has possession and stands still, live play pauses so you can choose the next move.
+A separate **SPRINT** reserve and **ENERGY** indicator reflect short bursts of effort and broader match fitness. Pace, acceleration, stamina and remaining energy influence movement and recovery.
 
-The **SPRINT** bar shows the short-burst reserve; **ENERGIE** shows the player's existing energy. Speed and acceleration influence movement, while stamina influences sprint duration, energy cost and reserve recovery. Low energy reduces sprint performance. Reserve recovery does not refill career energy, and paused simulation does not advance either resource.
+### 2D matches — the core of the career
 
-Keyboard shortcuts and optional action buttons shown in development pages are testing controls. Normal game menus provide navigation outside live play.
+The live 2D match engine covers passing, shooting, dribbling, crossings, pressing, goalkeeper actions, goal kicks, throw-ins, corners, free kicks, penalties, offside, fouls, cards, substitutions and full-time results. Tactical formations, collective movement and player decisions affect how each side plays.
 
-## A football world that keeps moving
+<div align="center">
+<img src="media/snapshots/Screenshot%202026-10-13%20190809.png" width="27%" alt="2D match formation and the full pitch">
+<img src="media/snapshots/Screenshot%202026-10-13%20190839.png" width="27%" alt="2D football live match">
+<img src="media/snapshots/Screenshot%202026-10-13%20190900.png" width="27%" alt="2D match action near the goal">
+</div>
 
-The current catalog documentation reports **152 associations with domestic competitions**, **6,349 playable clubs in active leagues**, **7,879 clubs including inactive promotion reserves**, and **211 FIFA national-team federations**.
+## Train for your next chance
 
-The career calendar spans **60 weeks per season**. Countries can use round-robin seasons, regional groups, championship/relegation splits and promotion play-offs. Romania's multi-level pyramid, Argentina's tournament phases, Moldova's mixed qualification group, Australia's league/finals structure and New Zealand's regional route give careers different paths.
+No9 connects training to the footballer you become. The career has **three regular weekly training sessions** and a separate weekly recovery option. Drills develop different abilities while intensity, fatigue and facility quality affect your preparation.
 
-Domestic cups connect to continental qualification. International football includes European, American, Asian, African and Oceanian club competitions, plus continental and world tournaments for national teams.
+A catalog of **20 interactive exercises** covers ball control, dribbling, passing, shooting, sprinting, crossing, defensive duels, movement without the ball, aerial play, combinations and set pieces. A dedicated training laboratory also lets you practice without changing your career rewards.
 
-**These are No9's implemented competition formats.** Some structures and participant allocations are adapted to the game's calendar and catalog coverage. Club names do not imply official endorsement or licensing.
+The same catalog can be explored in **native 3D training modes**, with a player, independent ball, targets, goals, support players and goalkeepers.
 
-## Rules that make the match matter
+<div align="center">
+<img src="media/snapshots/Screenshot%202026-10-13%20184900.png" width="27%" alt="Weekly football training options">
+<img src="media/snapshots/Screenshot%202026-10-13%20185202.png" width="27%" alt="Native training drill briefing">
+<img src="media/snapshots/Screenshot%202026-10-13%20185232.png" width="27%" alt="Training action on the 3D pitch">
+</div>
 
-The shared **AuthorityEngine** determines positioning, decisions, possession, ball movement and results. The 2D experience includes passes, crosses, shots, pressing, support, goalkeeper play, goals, touchlines, corners, goal kicks, free kicks, penalties, offside, fouls, cards, substitutions and changing ends.
+## The world of No9
 
-A match uses **90 real seconds per half**, with accelerated football movement. The native 3D demonstrations consume the same football authority, with a **1.75× movement tempo** and their own visual presentation.
+No9's documented competition catalog contains:
 
-This shared foundation lets the 3D work present the same decisions and rules while the career integration develops.
+| Football world | Included |
+| :-- | --: |
+| Associations with domestic competitions | **152** |
+| Clubs playable in active domestic leagues | **6,349** |
+| Clubs in the extended catalog, including promotion reserves | **7,879** |
+| FIFA federations represented for national-team competitions | **211** |
 
-## Train with a purpose
+The leagues span **Europe, Africa, Asia, North & Central America, South America and Oceania**. Some countries use a single division; others have two or three active levels, regional groups, multiple stages, championship and relegation splits, or promotion play-offs. Structures vary with the league rather than forcing every country into the same formula.
 
-The career provides **three regular training sessions per week** and **one separate weekly recovery**. Exercise intensity affects energy use, while the club's training base influences recovery.
+The football calendar also supports national cups, international club competitions and national-team tournaments: European club football, Libertadores and Sudamericana, North and Central American competitions, Asian and African continental tournaments, Oceanian club football, continental championships and the World Cup.
 
-The **20-exercise catalog** covers control, passing, shooting, crossing, running, sprinting, positioning, combinations, through balls, set pieces, tackling, interception, aerial play, heading, agility and endurance.
+**Competition formats are adapted to the game's calendar and available club catalog.** Club names and competition references do not imply official affiliation, endorsement or licensing.
 
-All 20 catalog entries also have native 3D test routes. They reuse the existing exercise definitions, four attempts and scoring. Test results remain separate from career rewards.
+<div align="center">
+<img src="media/snapshots/Screenshot%202026-10-13%20185019.png" width="27%" alt="Worldwide football, nations and competitions">
+<img src="media/snapshots/Screenshot%202026-10-13%20185032.png" width="27%" alt="Selecting international football competitions">
+<img src="media/snapshots/Screenshot%202026-10-13%20185051.png" width="27%" alt="European club competition fixtures">
+</div>
 
-## Latest development — 13 October 2026
+## Beyond the touchline
 
-This presentation was reviewed on **13 October 2026** against the latest No9 main-branch update, source snapshot **f7e6b4b**.
+A football career is more than match results. No9 includes a phone, an agent, messages, clubs, training facilities, schedules, equipment, profile and statistics, plus city services and leisure activities. The aim is for your decisions and achievements between matches to feel connected to the player you become on the pitch.
 
-The 13 October update adds possession-only sprint and live effort bars to the shared match authority and native free-training sandbox. The earlier 12 October environment work remains in the same source:
+## A 3D future already taking shape
 
-| Area | What the latest source contains |
-| --- | --- |
-| **Sprint controls** | Single tap for normal running; nearby rapid double tap for sprint while in possession. Off-ball positioning remains under AI, with opponent-tap tackling |
-| **Live effort HUD** | Separate sprint reserve and energy bars, driven by simulation state, player abilities and real seconds rather than match-tempo multipliers |
-| **Pitch grass** | Short 3D blades, two mowing shades, painted-line handling and denser detail for close, low cameras |
-| **Goals and nets** | Separate portable training-goal and stadium-goal geometry; ball contact drives net deformation and a soft rebound response |
-| **Stadium scoreboards** | Physical score panels with separate home/away headings that follow the score digits |
-| **Goalkeeper equipment** | Gloves and long sleeves attached to the native player's animated skeleton |
-| **Player actions** | Three additional warm-up previews: quick footwork, lateral steps and lunges, bringing the showcase selector to **69 actions** |
-| **Training atmosphere** | Animated practice groups on secondary pitches, including warm-ups, juggling, dribbling and passing |
-| **Facilities and access** | Refined gates, connected walking routes, service-building access and surrounding environment assets |
-| **Match presentation** | Updated substitution handling, post-match statistics and team/reserve exit presentation |
-
-These entries describe implementations in the development source. They do not establish a new public APK, a completed 3D career release or measured Android performance.
-
-## The next chapter — 3D
-
-The native 3D area is already interactive in development builds. Its player models, drills, facilities and match demonstrations are being prepared for integration into the main career.
+The native Godot 3D environment is a separate, interactive part of the project. It is more than concept art: it includes a footballer with customizable appearance and kit, football animations, ball contact, team movement, goalkeeper actions, an interactive training catalog and playable demonstration football.
 
 ### The player
 
-Humanizer-based geometry and skeletons support independent body, face, skin, eye, hair and kit customization in the test environment. Movement, football actions and goalkeeper poses use native 3D players.
+The 3D player has body and face appearance controls, hair, jersey, shorts, socks, boots and native football animations. The dedicated showcase includes movements, passes, shots, headers, challenges, goalkeeper actions and celebrations.
 
-The animation showcase now offers **69 selectable action previews**, including movement, passes and shots on both feet, receptions, headers, tackling, throw-ins, goalkeeper distributions, saves, celebrations and the three new warm-ups.
+<div align="center">
+<img src="media/snapshots/Screenshot%202026-10-13%20183822.png" width="30%" alt="Native 3D player wearing training kit">
+<img src="media/snapshots/Screenshot%202026-10-13%20183840.png" width="30%" alt="Football shirt name and number">
+<img src="media/snapshots/Screenshot%202026-10-13%20183947.png" width="30%" alt="3D player controlling a football">
+</div>
 
-Goalkeepers have dedicated gloves and long sleeves. Kit handling keeps shirt, shorts and socks separate; jersey names and numbers follow the animated player.
+### The training grounds
 
-### Five training bases
+Five training-base configurations range from a single small pitch to multi-pitch campuses with changing rooms, training buildings, facilities and outdoor environments. Some include a sports hall or a swimming pool. Park-style and mountain stadium environments add surroundings, access roads, fences and match-day facilities.
 
-The five facilities remain separate layouts:
+<div align="center">
+<img src="media/snapshots/Screenshot%202026-10-13%20183356.png" width="44%" alt="Training campus and swimming pool">
+<img src="media/snapshots/Screenshot%202026-10-13%20185334.png" width="44%" alt="Aerial overview of the football academy">
+</div>
 
-| Facility | Pitch layout |
-| --- | --- |
-| **Original base** | One pitch |
-| **Classic base** | Two pitches |
-| **Premium campus** | One large pitch and two small pitches |
-| **Sports academy** | Two large pitches and two small pitches |
-| **Performance centre** | One large pitch, two small pitches and one covered small pitch |
+### Football, stadiums and match presentation
 
-Changing rooms, storage, sports halls, parking and other amenities vary by facility. Individual campuses include pools. The latest access work joins paths to actual building entrances and places pitch gates beside the goals.
+Native 3D demonstrations include **5+1 small-sided play** and **11-versus-11 friendly play** with match officials, team arrivals, substitutions, goals and full-time presentation. They are development and demonstration modes; the main career is not yet a fully integrated 3D career mode.
 
-On multi-pitch campuses, secondary fields can host decorative training groups. Their warm-ups and ball exercises add activity to the surroundings without running additional competitive matches.
+<div align="center">
+<img src="media/snapshots/Screenshot%202026-10-13%20185646.png" width="30%" alt="Teams walking onto the pitch">
+<img src="media/snapshots/Screenshot%202026-10-13%20185958.png" width="30%" alt="Native 3D match presentation">
+<img src="media/snapshots/Screenshot%202026-10-13%20190115.png" width="30%" alt="Fourth official with substitution board">
+</div>
 
-### Stadiums and their surroundings
+## Official game snapshots
 
-The development area includes **two original stadium scenes and 14 configured variants**:
+Every image below comes from the **original No9 game/project snapshots**. All **40 PNG files** have been copied from the game's snapshot collection into this public repository, without replacing them with mock-ups, AI-generated samples or unrelated demonstrations. The snapshots include both the career's 2D interface and the dedicated 3D development modes.
 
-| Family | Variants |
-| --- | --- |
-| **Urban — seven** | Residential, compact neighbourhood, industrial, green city, Mediterranean, Nordic and outskirts |
-| **Mountain — seven** | Alpine village, valley town, resort, rural, compact town, high plateau and wooded valley |
-| **Original scenes — two** | Park stadium and mountain stadium |
+<details>
+<summary><strong>Career, tactics and the football world — 8 screenshots</strong></summary>
 
-Full-size test pitches measure **105 × 68 m**, with **7.32 × 2.44 m** goal openings. Benches, changing rooms, fences, gates, vegetation, roads and surrounding buildings give each venue a setting.
+<table>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20184846.png" width="360" alt="Player profile and attributes"><br><sub>Player profile and attributes</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20184900.png" width="360" alt="Individual training choices"><br><sub>Individual training choices</sub></td></tr>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20184915.png" width="360" alt="Team tactical setup"><br><sub>Team tactical setup</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20184932.png" width="360" alt="Club fixtures and career calendar"><br><sub>Club fixtures and career calendar</sub></td></tr>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20185019.png" width="360" alt="World football and national teams"><br><sub>World football and national teams</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20185032.png" width="360" alt="International competitions"><br><sub>International competitions</sub></td></tr>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20185051.png" width="360" alt="European club competition fixtures"><br><sub>European club competition fixtures</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20185133.png" width="360" alt="Match loading and on-screen guidance"><br><sub>Match loading and on-screen guidance</sub></td></tr>
+</table>
 
-Physical scoreboards belong to stadium environments. Their home and away headings remain centred over the corresponding score, including two-digit scores.
+</details>
 
-The latest source adds short pitch-grass geometry while retaining the two mowing shades and visible white markings. Close-camera density is limited to a local detail area. Grass geometry and its current visibility settings still need visual and device validation.
+<details open>
+<summary><strong>Matchday — the 2D career pitch — 3 screenshots</strong></summary>
 
-Portable training goals use a cage shape; stadium goals use tensioned box nets. A shared soft-contact response handles the ball inside the net, and the visual ripple starts at the contact point.
+<table>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20190809.png" width="360" alt="Matchday from kick-off"><br><sub>Matchday from kick-off</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20190839.png" width="360" alt="Team shape and ball movement"><br><sub>Team shape and ball movement</sub></td></tr>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20190900.png" width="360" alt="Live match action near goal"><br><sub>Live match action near goal</sub></td><td></td></tr>
+</table>
 
-The development asset collection has also expanded with Poly Haven grass, surface textures and an HDRI, plus Poly Pizza city and modular-train packs. Collection availability does not mean every asset is placed in a current scene: the reviewed world still uses its procedural cloud sky.
+</details>
 
-No new verified stadium capture is published in this update.
+<details>
+<summary><strong>The footballer in native 3D — 4 screenshots</strong></summary>
 
-### Matches, officials and the final whistle
+<table>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20183822.png" width="360" alt="Player model, front view"><br><sub>Player model, front view</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20183840.png" width="360" alt="Jersey number and player name"><br><sub>Jersey number and player name</sub></td></tr>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20183919.png" width="360" alt="Player movement"><br><sub>Player movement</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20183947.png" width="360" alt="Ball mastery and close control"><br><sub>Ball mastery and close control</sub></td></tr>
+</table>
 
-Native demonstrations support small-sided **5+1** and full-size **11v11** football. Switchable broadcast and ball-follow cameras present the shared match simulation.
+</details>
 
-The presentation includes team walk-in, line-up, a native referee, half-time, changing ends, goal celebrations, benches and substitutions. The fourth official displays the outgoing number in red and the incoming number in green. Incoming and outgoing players can be visible together during a substitution.
+<details>
+<summary><strong>Interactive 3D training and match presentation — 16 screenshots</strong></summary>
 
-The latest source extends queued substitution presentation and uses the shared match-summary panel after the final whistle. Team and reserve exit presentation can continue while the result remains visible.
+<table>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20185202.png" width="360" alt="Training briefing"><br><sub>Training briefing</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20185232.png" width="360" alt="On-pitch training"><br><sub>On-pitch training</sub></td></tr>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20185351.png" width="360" alt="Full-size demonstration match"><br><sub>Full-size demonstration match</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20185426.png" width="360" alt="Training in rainy conditions"><br><sub>Training in rainy conditions</sub></td></tr>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20185646.png" width="360" alt="Teams walking onto the pitch"><br><sub>Teams walking onto the pitch</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20185653.png" width="360" alt="Pre-match line-up"><br><sub>Pre-match line-up</sub></td></tr>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20185715.png" width="360" alt="Players getting ready"><br><sub>Players getting ready</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20185728.png" width="360" alt="Match official"><br><sub>Match official</sub></td></tr>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20185855.png" width="360" alt="Goal celebration"><br><sub>Goal celebration</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20185952.png" width="360" alt="Football in the rain"><br><sub>Football in the rain</sub></td></tr>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20185958.png" width="360" alt="Wide view of live 3D action"><br><sub>Wide view of live 3D action</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20190115.png" width="360" alt="Substitution board"><br><sub>Substitution board</sub></td></tr>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20190131.png" width="360" alt="Player coming on"><br><sub>Player coming on</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20190148.png" width="360" alt="Teams on the pitch"><br><sub>Teams on the pitch</sub></td></tr>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20190248.png" width="360" alt="Live ball action"><br><sub>Live ball action</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20190456.png" width="360" alt="Post-match statistics"><br><sub>Post-match statistics</sub></td></tr>
+</table>
 
-An official-fixture interface exists for career integration. The current public description continues to distinguish the working 2D career from the native 3D test area; demonstration matches do not write career results.
+</details>
 
-Loading prepares actors, materials and initial rendered frames before showing the 3D scene. Smoothness during expensive preparation remains a verification target.
+<details>
+<summary><strong>Training grounds, facilities and stadium surroundings — 9 screenshots</strong></summary>
 
-## From GameCore to Day One
+<table>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20181459.png" width="360" alt="Training base, field-side paths"><br><sub>Training base, field-side paths</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20183246.png" width="360" alt="Playing fields and parking"><br><sub>Playing fields and parking</sub></td></tr>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20183327.png" width="360" alt="Pitch, hills and surroundings"><br><sub>Pitch, hills and surroundings</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20183356.png" width="360" alt="Swimming pool and football campus"><br><sub>Swimming pool and football campus</sub></td></tr>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20183421.png" width="360" alt="Football goals and fencing"><br><sub>Football goals and fencing</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20183527.png" width="360" alt="Car park and adjacent grounds"><br><sub>Car park and adjacent grounds</sub></td></tr>
+<tr><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20183654.png" width="360" alt="Practice pitches and pathways"><br><sub>Practice pitches and pathways</sub></td><td align="center"><img src="media/snapshots/Screenshot%202026-10-13%20185334.png" width="360" alt="Sports academy campus seen from above"><br><sub>Sports academy campus seen from above</sub></td></tr>
+<tr><td align="center"><img src="media/snapshots/bench-snap.png" width="360" alt="Benches, parking and landscape"><br><sub>Benches, parking and landscape</sub></td><td></td></tr>
+</table>
 
-**Created and directed by Florin Hangu, with ChatGPT and Codex assisting implementation, research and iteration.**
+</details>
 
-The preserved Git history begins on **26 September 2026**, with the initial GameCore import and integration of the recorded histories. Work before Git is not dated by that record.
+## Where the journey leads
 
-| Recorded period | Development |
-| --- | --- |
-| **26 September** | GameCore enters Git; shared world state and collective tactical AI |
-| **Late September – early October** | Club catalogs, competition structures, equipment experiments and imported-model work |
-| **7–9 October** | Humanizer players, native training exercises, appearance tests and editable previews |
-| **10–11 October** | Shared-authority 3D demonstrations, officials, benches, loading and cameras |
-| **12 October** | Public Footballer presentation; expanded environments, grass, goals, equipment and match presentation |
-| **13 October** | Possession-only double-tap sprint, live effort HUD, focused desktop regressions and a complete repository inventory/source audit |
+The long-term goal is a footballer's life that feels connected from the first trial to the biggest matches: a living competitive world, meaningful player growth and a match experience driven by football logic.
 
-The next stage is to connect the native 3D work to the player's complete career, with readable touch interaction, reliable loading and performance measured on Android.
+Next priorities include integrating the existing 3D presentation directly into career fixtures and results, refining player and goalkeeper animation, improving match atmosphere and stadium life, expanding the experience around contracts and club relationships, and optimizing loading and performance on real mobile devices.
 
-## What has been verified
-
-The sprint update passed **190 checks with zero failures** in four focused desktop runs with Godot 4.7.2: sprint/energy (39), pointer input (9), existing gestures (13) and match integrity (129). These checks cover resource consumption and recovery, player abilities, possession-only controls, real-second rates, the HUD and the sprint state in the 3D presentation buffer. These are isolated automated code checks; the sprint update has not been verified in a played match in the complete game or on Android.
-
-The figures below are **historical desktop results recorded in project documentation**. They were not rerun for this README and do not validate every current change:
-
-| Recorded scenario | Reported result |
-| --- | --- |
-| Autonomous 3D demo, 10 October, 90 seconds | 31 passes, 15 shots, eight ground goalkeeper distributions; **1–1** |
-| Official-AI demo, 11 October, 90 seconds | 11 passes, seven crosses, four shots, 14 headers, 12 received passes and seven goalkeeper distributions; **1–0** |
-| Native animation library comparison, earlier 66-action baseline | **7,685 checks / 0 failures** |
-| Focused shared-authority/presentation integration | **684 checks / 0 failures** |
-
-The latest tree contains focused regression scripts for net contact, multiple substitutions, stadium scoreboards, single-base access and grass rendering. Their presence is not a recorded passing run.
-
-A previous GTX 1050 Compatibility-renderer measurement with 22 players and a native referee reported approximately **29.8 FPS median**. It predates the latest changes and does not establish Android frame rate.
-
-Broader AI suites have recorded failures. Controlled scenarios and individual simulated matches do not establish overall balance or complete readiness.
-
-[Verification evidence and remaining work →](docs/VERIFICATION.md)
-
-## Beyond the scoreboard — the No9 promise
-
-An ordinary training day should feel connected to the next match. A performance should matter to your footballer. A new club should feel like a new chapter.
-
-**Earn your place.** Build the story through preparation, performances and opportunities.
-
-**Make football readable.** Keep touch input clear, movement visible and rules coherent.
-
-**Let the world remember.** Carry the consequences of matches, contracts and seasons into the career.
+**Current status:** active development. The Godot project currently has an Android export configuration; **iOS is a target platform**, not an announced or verified public release. The existence of development scenes and screenshots does not establish a completed mobile build.
 
 ## Public builds
 
-[Footballer Releases](https://github.com/florinhangu/Footballer/releases) is the public build-download hub.
-
-**No published release or APK attachment was present at the 13 October 2026 check.**
-
-The current development export targets Android **ARM32 and ARM64** and names **0.A1.33**. The application configuration still names **0.A1.16**. The version metadata needs reconciliation before a verified public release; an export filename does not prove an APK was built or tested.
-
-No iOS export preset or verified iOS release was found in the reviewed source.
-
-Future releases should identify the exact version, tested devices, included game and development modes, known issues and save compatibility. See the [release guide](docs/RELEASES.md).
-
-[Report an issue](https://github.com/florinhangu/Footballer/issues) · [Browse public builds](https://github.com/florinhangu/Footballer/releases)
+Follow the [Footballer Releases page](https://github.com/florinhangu/Footballer/releases) for public APKs when they are published. The release page is the authoritative place to check availability; a snapshot or feature description is not proof of an available download.
 
 ---
 
+## Credits
+
+**Created and directed by Florin Hangu.** ChatGPT and Codex have assisted with research, implementation and development iteration.
+
+No9 is built with [Godot Engine](https://godotengine.org/) and benefits from open-source tools, assets and community work. Credits and licensing information are documented in the [full Credits & Attribution](docs/CREDITS.md).
+
+| Contributor / community | Contribution |
+| :-- | :-- |
+| [Godot Engine](https://godotengine.org/) and its contributors | Game engine, scripting and runtime |
+| Elissa Moeller and the [Humanizer community](https://github.com/NitroxNova/humanizer) | Native character creation tooling |
+| [MakeHuman Community](https://www.makehumancommunity.org/) | Related character ecosystem and resources |
+| [Quaternius](https://quaternius.com/) | Nature and environment assets |
+| [Poly Haven](https://polyhaven.com/) | Natural textures and reference assets |
+| [Poly Pizza](https://poly.pizza/) and individual pack creators | Environmental models and props |
+| [Kenney](https://kenney.nl/), Rgsdev and other asset creators | Modular scenery and vehicles |
+| [Tabler Icons](https://github.com/tabler/tabler-icons) and [Flag Icons](https://github.com/lipis/flag-icons) contributors | Icons and flag resources |
+| Independent music, sound-effect and font creators | Soundtrack, football atmosphere, interface and kit typography |
+
+Individual asset licenses and any additional attribution requirements remain applicable. Trademarks and organization names belong to their respective owners; No9 is an independent project and is not officially licensed or endorsed by those football bodies.
+
+## Thanks
+
+Thanks to the Godot and football-game-development communities, open-source maintainers, artists, testers and everyone sharing expertise that makes independent game development possible. And thanks to everyone following the project and helping shape the football experience.
+
 **Your first contract is only the beginning.**
-
-*Footballer is the public presentation and release hub. The private game source is maintained separately. Page updated 13 October 2026 from No9 source snapshot f7e6b4b.*
-
-## Powered by
-
-<table>
-<tr>
-<td align="center">
-<a href="https://godotengine.org/"><img src="media/branding/godot.svg" width="72" alt="Godot Engine logo"></a><br>
-<a href="https://godotengine.org/"><b>Godot Engine</b></a><br>
-Game engine · GDScript · Compatibility renderer
-</td>
-<td align="center">
-<a href="https://chatgpt.com/"><img src="media/branding/chatgpt.webp" width="72" alt="ChatGPT logo"></a><br>
-<a href="https://chatgpt.com/"><b>ChatGPT</b></a> &amp; <a href="https://openai.com/codex/"><b>Codex</b></a><br>
-Development, research and creative assistance
-</td>
-</tr>
-</table>
-
-Godot runs the game; ChatGPT and Codex assist its development. No9 remains an independent project.
-
-## Credits & Thanks
-
-Thank you to the creators and communities who make these tools and assets available.
-
-| Contribution | Creator / source |
-| --- | --- |
-| **Godot Engine** | Juan Linietsky, Ariel Manzur and the [Godot contributors](https://github.com/godotengine/godot) |
-| **Humanizer** | Elissa Moeller and the [Humanizer community](https://github.com/NitroxNova/humanizer) |
-| **MakeHuman / MPFB content** | [MakeHuman Community](https://www.makehumancommunity.org/), Data Collection AB, Joel Palmius and Jonas Hauquier |
-| **Stylized Nature MegaKit** | [Quaternius](https://quaternius.com/) |
-| **Nature & Terrain — Free Edition** | [Avramania](https://www.avramania.com/) |
-| **Modular prototyping / vehicle packs** | Raphael Gonçalves, [Rgsdev](https://www.patreon.com/rgsdev) |
-| **Stylized Grass meshes and shader** | [StayAtHomeDev](https://stayathomedev.itch.io/stylized-grass-shader) |
-| **Poly Haven grass and surface resources** | [Poly Haven](https://polyhaven.com/); Grass Medium 01 by Rob Tuytel and Rico Cilliers; Suburban Soccer Park by Dimitrios Savva and Jarod Guest — CC0 |
-| **City Pack asset collection** | [Poly Pizza](https://poly.pizza/bundle/City-Pack-kJqRAIGsw0): J-Toastie, Zsky, Quaternius, Kay Lousberg, Poly by Google, dook, Danni Bittman, Jens Kull, jeremy and Zack Huang — asset-specific CC BY 3.0 / CC0 |
-| **Modular Train Pack asset collection** | [Quaternius via Poly Pizza](https://poly.pizza/bundle/Modular-Train-Pack-jYEybkFVr1) — CC0 |
-| **Tabler Icons** | Paweł Kuna and the [Tabler contributors](https://github.com/tabler/tabler-icons) |
-| **Flag Icons** | Panayiotis Lipiridis and [flag-icons contributors](https://github.com/lipis/flag-icons) |
-| **Jersey fonts** | Dharma Type; Anton, Oswald and Barlow project authors; Indian Type Foundry |
-
-<details>
-<summary><b>Editor tools and additional acknowledgements</b></summary>
-
-| Tool | Creator / source |
-| --- | --- |
-| Road Generator | Moo-Ack! Productions / TheDuckCow — [source](https://github.com/TheDuckCow/godot-road-generator) |
-| RichText3D | Matias Szylkowski — [source](https://github.com/mszylkowski/rich-text-3d-godot) |
-| Material Layers | Foyezes — [source](https://github.com/Foyezes/Godot-Material-Layers-Legacy) |
-| Ragdoll Generator | Manik Sharma — [source](https://github.com/Manik2607/auto-ragdoll) |
-| Low Poly Terrain Builder | Fabian S / 78sForge — [source](https://github.com/78sForge/LowPolyTerrainBuilder) |
-| M.A.V.S | Millu30 / Gidan — [source](https://github.com/Dente222/MAdvanced-Vehicle-Controller) |
-| Weather System (Lite) | Sean Elovirta |
-
-Tools and packs present in the development repository are acknowledged here even when not active in every scene.
-
-</details>
-
-<details>
-<summary><b>New collection attributions — 12 October update</b></summary>
-
-The following source records accompany the newly reviewed collections. Assets may be adapted in scale, materials, placement or geometry for No9; inclusion in a collection does not mean every item is used in a scene.
-
-### Poly Haven
-
-- **[Grass Medium 01](https://polyhaven.com/a/grass_medium_01)** — Rob Tuytel (photography), Rico Cilliers (modeling); [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
-- **[Suburban Soccer Park](https://polyhaven.com/a/suburban_soccer_park)** — Dimitrios Savva (photography), Jarod Guest (processing); CC0 1.0. Included as an HDRI resource; the reviewed world uses a procedural sky.
-
-### Poly Pizza City Pack
-
-- [Flower Pot](https://poly.pizza/m/XOT4ajEFjU) — Zsky; CC-BY 3.0.
-- [Flower Pot](https://poly.pizza/m/Kgt363WkKd) — Zsky; CC-BY 3.0.
-- [Debris Papers](https://poly.pizza/m/MujITy1NRR) — Quaternius; CC0 1.0.
-- [Mailbox](https://poly.pizza/m/9gbHlg1IlY) — J-Toastie; CC-BY 3.0.
-- [Traffic Light](https://poly.pizza/m/lg9AKWejnF) — Quaternius; CC0 1.0.
-- [Manhole Cover](https://poly.pizza/m/S6aGVNF1Iz) — J-Toastie; CC-BY 3.0.
-- [Bus stop sign](https://poly.pizza/m/ECdbKwxoLa) — dook; CC-BY 3.0.
-- [Fence Piece](https://poly.pizza/m/Y6D3Sbc85w) — J-Toastie; CC-BY 3.0.
-- [Fence End](https://poly.pizza/m/tQ5zhPd5UC) — J-Toastie; CC-BY 3.0.
-- [Floor Hole](https://poly.pizza/m/FbJAtOQ8pb) — J-Toastie; CC-BY 3.0.
-- [Cone](https://poly.pizza/m/WoXpAJT0oD) — J-Toastie; CC-BY 3.0.
-- [Tree](https://poly.pizza/m/6pwiq7hSrHr) — Poly by Google; CC-BY 3.0.
-- [Gb Blank](https://poly.pizza/m/bBFgKEQoUq) — J-Toastie; CC-BY 3.0.
-- [Greenhouse](https://poly.pizza/m/exys3emjr1) — J-Toastie; CC-BY 3.0.
-- [RB Blank](https://poly.pizza/m/gjq5Qii72b) — J-Toastie; CC-BY 3.0.
-- [Road Bits](https://poly.pizza/m/5BPCPOycxC) — Kay Lousberg; CC0 1.0.
-- [Building Green](https://poly.pizza/m/FmjsfA1eHY) — J-Toastie; CC-BY 3.0.
-- [Pizza Corner](https://poly.pizza/m/78W2Ab2Uvt) — J-Toastie; CC-BY 3.0.
-- [Bench](https://poly.pizza/m/dfDUkVthkMT) — Danni Bittman; CC-BY 3.0.
-- [Fire Exit](https://poly.pizza/m/ugX9DZ0wlI) — J-Toastie; CC-BY 3.0.
-- [Fence](https://poly.pizza/m/ZSQMyIqPTz) — J-Toastie; CC-BY 3.0.
-- [Building Red Corner](https://poly.pizza/m/9JuFwnivP0) — J-Toastie; CC-BY 3.0.
-- [Building Red](https://poly.pizza/m/lbNz2dClar) — J-Toastie; CC-BY 3.0.
-- [Brown Building](https://poly.pizza/m/fGKIlWGDNH) — J-Toastie; CC-BY 3.0.
-- [Air conditioner](https://poly.pizza/m/4m3lja-ZCkA) — Poly by Google; CC-BY 3.0.
-- [Dumpster](https://poly.pizza/m/PKsbolkZSr) — Quaternius; CC0 1.0.
-- [Trash Can](https://poly.pizza/m/PEtRDeGyg0) — Zsky; CC-BY 3.0.
-- [trah bag grey](https://poly.pizza/m/axTuG36RXnN) — Jens Kull; CC-BY 3.0.
-- [Roof Exit](https://poly.pizza/m/GEB4pWBI8l) — J-Toastie; CC-BY 3.0.
-- [Big Building](https://poly.pizza/m/AVCS8jUd2l) — Quaternius; CC0 1.0.
-- [Rock band poster](https://poly.pizza/m/fTsh4nKZ9iK) — jeremy; CC-BY 3.0.
-- [Yellow Post-it](https://poly.pizza/m/1-ZStsi8S91) — Zack Huang; CC-BY 3.0.
-- [Box](https://poly.pizza/m/ykZ23x9d6p) — Kay Lousberg; CC0 1.0.
-- [Washing Line](https://poly.pizza/m/nGU4m9V7ez) — J-Toastie; CC-BY 3.0.
-- [ATM](https://poly.pizza/m/p4U0tSF5WN) — J-Toastie; CC-BY 3.0.
-- [Power Box](https://poly.pizza/m/WFVjj4vnGg) — J-Toastie; CC-BY 3.0.
-- [Planter & Bushes](https://poly.pizza/m/wn85Xr9lM3) — J-Toastie; CC-BY 3.0.
-- [Fire hydrant](https://poly.pizza/m/eNPaSEPrst8) — Poly by Google; CC-BY 3.0.
-- [Animated Woman](https://poly.pizza/m/nIItLV9nxS) — Quaternius; CC0 1.0.
-- [Animated Woman](https://poly.pizza/m/qJ2gsTUBHL) — Quaternius; CC0 1.0.
-- [Animated Woman](https://poly.pizza/m/9kF7eTDbhO) — Quaternius; CC0 1.0.
-- [Stop sign](https://poly.pizza/m/60GyU9CdZ9r) — Poly by Google; CC-BY 3.0.
-- [Billboard](https://poly.pizza/m/3ALIEkWNbgR) — Poly by Google; CC-BY 3.0.
-- [Adventurer](https://poly.pizza/m/5EGWBMpuXq) — Quaternius; CC0 1.0.
-- [Man](https://poly.pizza/m/HMnuH5geEG) — Quaternius; CC0 1.0.
-- [Motorcycle](https://poly.pizza/m/dse64pqMKAR) — Poly by Google; CC-BY 3.0.
-- [Bus](https://poly.pizza/m/4CPpvEmrMoF) — Poly by Google; CC-BY 3.0.
-- [Bicycle](https://poly.pizza/m/19VoUuA2pcN) — Poly by Google; CC-BY 3.0.
-- [Van](https://poly.pizza/m/aT_24cDaW1a) — Poly by Google; CC-BY 3.0.
-- [Pickup Truck](https://poly.pizza/m/qn4grQgHm8) — Quaternius; CC0 1.0.
-- [Sports Car](https://poly.pizza/m/1mkmFkAz5v) — Quaternius; CC0 1.0.
-- [Car](https://poly.pizza/m/unqqkULtRU) — Quaternius; CC0 1.0.
-- [Police Car](https://poly.pizza/m/BwwnUrWGmV) — Quaternius; CC0 1.0.
-- [Car](https://poly.pizza/m/Cz6yDaUcM9) — Quaternius; CC0 1.0.
-- [Sports Car](https://poly.pizza/m/Gzj704DXdr) — Quaternius; CC0 1.0.
-- [SUV](https://poly.pizza/m/xsMtZhBkxL) — Quaternius; CC0 1.0.
-- [Bus Stop](https://poly.pizza/m/OWczicNWhO) — Zsky; CC-BY 3.0.
-
-[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
-[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-
-### Poly Pizza Modular Train Pack
-
-The [Modular Train Pack](https://poly.pizza/bundle/Modular-Train-Pack-jYEybkFVr1) is by **Quaternius**, under CC0 1.0. The collection contains straight and curved railway tracks, passenger and locomotive sections, coal/container cargo pieces, cargo wagons, and high-speed front/wagon sections. These are collection resources; a railway gameplay system is not claimed.
-
-</details>
-
-[Earlier full credits, asset provenance and bundled license notices →](docs/CREDITS.md)
-
-Godot logo: © 2017 Andrea Calabró, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). ChatGPT logo and marks belong to OpenAI; used as development attribution under the [OpenAI brand guidelines](https://openai.com/brand/). [Logo sources →](media/branding/README.md)
-
