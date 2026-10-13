@@ -2,7 +2,7 @@
 
 Reviewed: 13 October 2026. Current source baseline: f7e6b4bcc785e967677dd2d4d3a15ebc0e5fc0d5. The earlier presentation review used b52aeca28f3a7ac83cf2ed1a32a8393217d53d18.
 
-The original presentation used a read-only source/history review. On 13 October, the sprint implementation was validated in focused desktop runs with Godot 4.7.2 and isolated test storage. The HUD was also rendered and visually inspected. No APK was built or tested on an Android device. Earlier simulation/performance results remain historical documentation, separate from the new focused checks.
+The original presentation used a read-only source/history review. On 13 October, the sprint implementation was validated in focused desktop runs with Godot 4.7.2 and isolated test storage. The HUD was rendered and visually inspected in an isolated test project, without running the complete game. No APK was built or tested on an Android device. Earlier simulation/performance results remain historical documentation, separate from the new focused checks.
 
 ## Sprint update — executed desktop checks
 
@@ -18,7 +18,7 @@ The checks cover gesture recognition, immediate first-tap movement, possession-o
 
 The source audit inventoried all 10,739 tracked files in the pre-sprint baseline, inspected 485 GDScript files and checked external references in 152 text scenes. Binary assets were inventoried rather than individually rendered. The audit identified local sky/water/ground resources excluded from Git; full native 3D verification requires the complete local asset installation.
 
-The [new HUD capture](../media/sprint-energy.png) shows the actual component and existing 2D renderer in a desktop test harness, not a released APK.
+The HUD was rendered in an isolated desktop test harness. That capture is excluded from the public presentation because it does not show the complete game's actual layout. The sprint update has not been verified in a played match in the complete game.
 
 ## Evidence and scope
 

@@ -62,10 +62,6 @@ While in possession, two nearby taps within **300 ms** request sprint. A new sin
 
 The **SPRINT** bar shows the short-burst reserve; **ENERGIE** shows the player's existing energy. Speed and acceleration influence movement, while stamina influences sprint duration, energy cost and reserve recovery. Low energy reduces sprint performance. Reserve recovery does not refill career energy, and paused simulation does not advance either resource.
 
-<img src="media/sprint-energy.png" width="360" alt="Desktop HUD validation with sprint reserve at 49 percent and energy at 78 percent above the existing 2D pitch">
-
-*Godot desktop HUD validation captured on 13 October 2026 at 360 × 640 px. This shows the actual effort component with values calculated by the sprint simulation and the existing 2D renderer in a test harness. It is not an Android-device or full native 3D scene capture.*
-
 Keyboard shortcuts and optional action buttons shown in development pages are testing controls. Normal game menus provide navigation outside live play.
 
 ## A football world that keeps moving
@@ -115,8 +111,6 @@ The 13 October update adds possession-only sprint and live effort bars to the sh
 
 These entries describe implementations in the development source. They do not establish a new public APK, a completed 3D career release or measured Android performance.
 
-The new desktop HUD capture is shown in the touch-controls section. The training-base and native-player galleries retain their earlier captures and dates; they do not show the new grass, goals or environment changes as freshly captured images.
-
 ## The next chapter — 3D
 
 The native 3D area is already interactive in development builds. Its player models, drills, facilities and match demonstrations are being prepared for integration into the main career.
@@ -128,16 +122,6 @@ Humanizer-based geometry and skeletons support independent body, face, skin, eye
 The animation showcase now offers **69 selectable action previews**, including movement, passes and shots on both feet, receptions, headers, tackling, throw-ins, goalkeeper distributions, saves, celebrations and the three new warm-ups.
 
 Goalkeepers have dedicated gloves and long sleeves. Kit handling keeps shirt, shorts and socks separate; jersey names and numbers follow the animated player.
-
-<table>
-<tr><th>Player movement preview</th><th>Goalkeeper preview</th></tr>
-<tr>
-<td><img src="media/player-run.png" width="300" alt="Native player running with the ball in a development test"></td>
-<td><img src="media/player-keeper.png" width="300" alt="Native goalkeeper tracking the ball in a development test"></td>
-</tr>
-</table>
-
-*Player-action captures committed on 9 October 2026. They predate the latest equipment and environment changes.*
 
 ### Five training bases
 
@@ -154,25 +138,6 @@ The five facilities remain separate layouts:
 Changing rooms, storage, sports halls, parking and other amenities vary by facility. Individual campuses include pools. The latest access work joins paths to actual building entrances and places pitch gates beside the goals.
 
 On multi-pitch campuses, secondary fields can host decorative training groups. Their warm-ups and ball exercises add activity to the surroundings without running additional competitive matches.
-
-<table>
-<tr><th>Original single-pitch base</th><th>Classic two-pitch base</th></tr>
-<tr>
-<td><img src="media/base-single.png" width="280" alt="Earlier overview of the original single-pitch training base"></td>
-<td><img src="media/base-classic.png" width="280" alt="Earlier overview of the classic two-pitch training base"></td>
-</tr>
-<tr><th>Sports academy</th><th>Performance centre</th></tr>
-<tr>
-<td><img src="media/base-academy.png" width="280" alt="Earlier sports academy development overview"></td>
-<td><img src="media/base-performance.png" width="280" alt="Earlier performance centre development overview"></td>
-</tr>
-</table>
-
-**Premium campus**
-
-![Earlier premium training campus development overview](media/training-campus.png)
-
-*Base captures were committed on 9 October; the premium overview was last updated in Git on 11 October 2026. They precede the 12 October update. A commit date records when an image entered Git, not necessarily when it was captured.*
 
 ### Stadiums and their surroundings
 
@@ -227,7 +192,7 @@ The next stage is to connect the native 3D work to the player's complete career,
 
 ## What has been verified
 
-The sprint update passed **190 checks with zero failures** in four focused desktop runs with Godot 4.7.2: sprint/energy (39), pointer input (9), existing gestures (13) and match integrity (129). These checks cover resource consumption and recovery, player abilities, possession-only controls, real-second rates, the HUD and the sprint state in the 3D presentation buffer. They do not establish Android performance or a fully tested native 3D career.
+The sprint update passed **190 checks with zero failures** in four focused desktop runs with Godot 4.7.2: sprint/energy (39), pointer input (9), existing gestures (13) and match integrity (129). These checks cover resource consumption and recovery, player abilities, possession-only controls, real-second rates, the HUD and the sprint state in the 3D presentation buffer. These are isolated automated code checks; the sprint update has not been verified in a played match in the complete game or on Android.
 
 The figures below are **historical desktop results recorded in project documentation**. They were not rerun for this README and do not validate every current change:
 
