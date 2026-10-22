@@ -92,8 +92,8 @@ No9's documented competition catalog contains:
 | Football world | Included |
 | :-- | --: |
 | Associations with domestic competitions | **152** |
-| Clubs playable in active domestic leagues | **6,349** |
-| Clubs in the extended catalog, including promotion reserves | **7,879** |
+| Persistent club identities in the current database | **8,933** |
+| Stadium identity records, including retained references | **9,123** |
 | FIFA federations represented for national-team competitions | **211** |
 
 The leagues span **Europe, Africa, Asia, North & Central America, South America and Oceania**. Some countries use a single division; others have two or three active levels, regional groups, multiple stages, championship and relegation splits, or promotion play-offs. Structures vary with the league rather than forcing every country into the same formula.
@@ -118,7 +118,7 @@ The native Godot 3D environment is a separate, interactive part of the project. 
 
 ### The player
 
-The 3D player has body and face appearance controls, hair, jersey, shorts, socks, boots and native football animations. The dedicated showcase includes movements, passes, shots, headers, challenges, goalkeeper actions and celebrations.
+The current 3D player pipeline uses the Solv3 model prepared in Blender, football kit and an authorized Mixamo animation catalog. Player, goalkeeper, referee and coach roles have separate presentation requirements. The dedicated showcase includes movements, passes, shots, headers, challenges, goalkeeper actions and celebrations.
 
 <div align="center">
 <img src="media/snapshots/Screenshot%202026-10-13%20183822.png" width="30%" alt="Native 3D player wearing training kit">
@@ -145,9 +145,44 @@ Native 3D demonstrations include **5+1 small-sided play** and **11-versus-11 fri
 <img src="media/snapshots/Screenshot%202026-10-13%20190115.png" width="30%" alt="Fourth official with substitution board">
 </div>
 
+## Development update — 22 October 2026
+
+The stadium authoring library now brings **89 available assets and two assembly examples onto one Godot gallery page**: modular stands and end stands, connected corners, tier and roof options, floodlights, scoreboards, advertising, standing terraces, steel bleachers and competition presentation pieces. These are development assets; the existing match environments remain available.
+
+Floodlights face the pitch and sit close to the stands. Fully roofed examples use lighting beneath the canopy. Smaller individual speakers, roof-mounted displays and three-sided advertising layouts follow the stadium structure. Seat colors can use **three editable colors** with uniform, mosaic, vertical-stripe, horizontal-stripe, checkerboard, diagonal or sector patterns.
+
+<div align="center">
+<img src="media/development-2026-10-22/stadium-gallery.png" width="95%" alt="All 89 available stadium assets together on one Godot development page">
+<img src="media/development-2026-10-22/roof-lighting.png" width="47%" alt="Pitch-facing floodlights and a small individual speaker under the canopy">
+<img src="media/development-2026-10-22/roof-scoreboard.png" width="47%" alt="A supported scoreboard in a fully roofed stadium development example">
+</div>
+
+### No9Editor — a separate desktop application
+
+**No9Editor** is a standalone Windows editor with a searchable database browser and a live 3D stadium preview. It does not require an installed Godot editor. Names, club short names, colors, stadium capacity and appearance can be edited; identifiers, rules, ratings and squads remain protected.
+
+The preview reuses the basic stadium's actual playing surface, markings, corner flags and both goals with nets. It adds the selected stands and end stands around that pitch. Stadium appearance settings are currently an authoring preview and database configuration; they do not automatically replace every existing match scene.
+
+Changes are saved as **independent update packs**, separate from the original database. A club update from one author and a stadium update from another can be enabled together. Packs can be imported, enabled, disabled and reordered. Different fields combine; conflicting edits to the same field use the last active pack and are reported. Shared stadiums use a canonical identity with compatible older references; uncertain same-name venues are kept separate for review.
+
+<div align="center">
+<img src="media/development-2026-10-22/no9editor.png" width="95%" alt="No9Editor live stadium customization draft, illustrating editable capacity and mosaic seat colors; not a reconstruction of the named real stadium">
+</div>
+
+### Current match captures
+
+These portrait captures come from the existing **11-versus-11 3D demonstration**, tested silently in the background at **720 × 1280** and **1080 × 1920** with the mobile rendering profile enabled on a Windows laptop. They are desktop development evidence, not Android or iPhone performance certification.
+
+<div align="center">
+<img src="media/development-2026-10-22/match-720p.png" width="32%" alt="Current 720 by 1280 portrait 3D match demonstration">
+<img src="media/development-2026-10-22/match-1080p.png" width="32%" alt="Current 1080 by 1920 portrait 3D match demonstration">
+</div>
+
+The desktop editor renders its 3D preview on demand, keeps repeated seat geometry batched, and recolors existing instances without rebuilding the stadium. Match visibility queries reuse results within a rendered frame while preserving the existing animation and screen-edge behavior. Further device-specific performance work remains necessary.
+
 ## Official game snapshots
 
-Every image below comes from the **original No9 game/project snapshots**. All **40 PNG files** have been copied from the game's snapshot collection into this public repository, without replacing them with mock-ups, AI-generated samples or unrelated demonstrations. The snapshots include both the career's 2D interface and the dedicated 3D development modes.
+The historical collection below comes from the **original No9 game/project snapshots** captured on 13 October 2026. Its **40 PNG files** were copied from the game's snapshot collection into this public repository, without replacing them with mock-ups, AI-generated samples or unrelated demonstrations. The snapshots include both the career's 2D interface and the dedicated 3D development modes.
 
 <details>
 <summary><strong>Career, tactics and the football world — 8 screenshots</strong></summary>
