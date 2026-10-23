@@ -145,40 +145,46 @@ Native 3D demonstrations include **5+1 small-sided play** and **11-versus-11 fri
 <img src="media/snapshots/Screenshot%202026-10-13%20190115.png" width="30%" alt="Fourth official with substitution board">
 </div>
 
-## Development update — 22 October 2026
+## Development update — 23 October 2026
 
-The stadium authoring library now brings **89 available assets and two assembly examples onto one Godot gallery page**: modular stands and end stands, connected corners, tier and roof options, floodlights, scoreboards, advertising, standing terraces, steel bleachers and competition presentation pieces. These are development assets; the existing match environments remain available.
+The stadium authoring library brings **91 assets and two assembly examples onto one Godot gallery page**: stands and end stands, connected corners, tier and roof options, floodlights, scoreboards, advertising, standing terraces, steel bleachers and award presentation pieces. The existing rural, urban, plain and mountain match environments remain available.
 
-Floodlights face the pitch and sit close to the stands. Fully roofed examples use lighting beneath the canopy. Smaller individual speakers, roof-mounted displays and three-sided advertising layouts follow the stadium structure. Seat colors can use **three editable colors** with uniform, mosaic, vertical-stripe, horizontal-stripe, checkerboard, diagonal or sector patterns.
+Stadium options include full or central-half canopies, five roof shapes, three support structures, and a full single stand, two independent stands, a centered half-width stand or no stand on each side. Each of the four corners can be enabled separately when both adjoining sides are full-width. There is no roof above an absent corner. Seat palettes use **one, two or three colors** with uniform, individual-seat mosaic, vertical sectors, horizontal sectors, equally spaced bands, ring colors or bottom-to-top fading. The mosaic keeps discrete seat colors at every distance, with height-dependent mixtures based on the supplied photographs; distant chairs use four triangles each rather than color-averaged strips. Floodlights face the pitch. Covered examples can mount lights beneath the roof; scoreboards include central cable suspension with no full roof, roof-edge mounting and closed niches. Advertising can use one or two rows on the pitch perimeter, on rectangular spectator fencing, or both.
 
 <div align="center">
-<img src="media/development-2026-10-22/stadium-gallery.png" width="95%" alt="All 89 available stadium assets together on one Godot development page">
-<img src="media/development-2026-10-22/roof-lighting.png" width="47%" alt="Pitch-facing floodlights and a small individual speaker under the canopy">
-<img src="media/development-2026-10-22/roof-scoreboard.png" width="47%" alt="A supported scoreboard in a fully roofed stadium development example">
+<img src="media/development-2026-10-23/stadium-gallery.png" width="95%" alt="All 91 stadium authoring assets together on one Godot page">
 </div>
+
+<p align="center"><img src="media/development-2026-10-23/mosaic-three-colors.png" width="95%" alt="Discrete three-color stadium seat mosaic with continuous height transitions through the curved corner"></p>
 
 ### No9Editor — a separate desktop application
 
-**No9Editor** is a standalone Windows editor with a searchable database browser and a live 3D stadium preview. It does not require an installed Godot editor. Names, club short names, colors, stadium capacity and appearance can be edited; identifiers, rules, ratings and squads remain protected.
+**No9Editor 1.1.3** is a standalone Windows editor with database search, readable regulations and a live 3D stadium preview. It does not require an installed Godot editor. Names, club short names, colors, stadium capacity and appearance are editable. Rules, ratings, memberships and identifiers are protected.
 
-The preview reuses the basic stadium's actual playing surface, markings, corner flags and both goals with nets. It adds the selected stands and end stands around that pitch. Stadium appearance settings are currently an authoring preview and database configuration; they do not automatically replace every existing match scene.
+Selecting a league shows its name and the **clubs registered in the catalog's current season**. Regulations are presented as paragraphs rather than code. The international competition browser separates **17 club competitions and seven national-team competitions**. The game's Champions League, Europa League and Conference League each use groups of eight, with seven matches per club: one match against each opponent, without a group-stage return leg.
 
-Changes are saved as **independent update packs**, separate from the original database. A club update from one author and a stadium update from another can be enabled together. Packs can be imported, enabled, disabled and reordered. Different fields combine; conflicting edits to the same field use the last active pack and are reported. Shared stadiums use a canonical identity with compatible older references; uncertain same-name venues are kept separate for review.
+The stadium preview reuses the basic stadium's actual playing surface, markings, corner flags and both goals with nets. It adds configurable stands around the pitch and provides more touchline space for the dugouts and coaches. Changing a venue no longer leaves another stadium on screen after an invalid selection. Incompatible edits restore the last valid configuration and show their reason above the preview. These settings remain stadium authoring and database configuration; they do not automatically replace every existing 3D match scene.
 
-<div align="center">
-<img src="media/development-2026-10-22/no9editor.png" width="95%" alt="No9Editor live stadium customization draft, illustrating editable capacity and mosaic seat colors; not a reconstruction of the named real stadium">
-</div>
-
-### Current match captures
-
-These portrait captures come from the existing **11-versus-11 3D demonstration**, tested silently in the background at **720 × 1280** and **1080 × 1920** with the mobile rendering profile enabled on a Windows laptop. They are desktop development evidence, not Android or iPhone performance certification.
+Changes are saved as **independent update packs**, separate from the original database. Club and stadium changes from different authors can be combined, enabled, disabled and reordered. Conflicting changes to the same field use the last active pack and are reported. The database now uses numeric entity IDs throughout its records and references, with **23,821 globally reserved numbers**. Confirmed stadiums with the same name, city and country share one identity; training grounds are excluded from the stadium editor.
 
 <div align="center">
-<img src="media/development-2026-10-22/match-720p.png" width="32%" alt="Current 720 by 1280 portrait 3D match demonstration">
-<img src="media/development-2026-10-22/match-1080p.png" width="32%" alt="Current 1080 by 1920 portrait 3D match demonstration">
+<img src="media/development-2026-10-23/no9editor.png" width="95%" alt="No9Editor stadium customization draft: a development configuration, not a reconstruction of the named real stadium">
+<img src="media/development-2026-10-22/league-current-season.png" width="95%" alt="League name and the clubs included in the selected current season">
+<img src="media/development-2026-10-22/rules-readable.png" width="95%" alt="League regulations presented as readable paragraphs">
+<img src="media/development-2026-10-22/international-competitions.png" width="95%" alt="International club competition with seven group games and integer point totals">
 </div>
 
-The desktop editor renders its 3D preview on demand, keeps repeated seat geometry batched, and recolors existing instances without rebuilding the stadium. Match visibility queries reuse results within a rendered frame while preserving the existing animation and screen-edge behavior. Further device-specific performance work remains necessary.
+### Match presentation and animation checks
+
+The fourth official has newly authored board-carrying and board-raising poses, with bent elbows and hands gripping the lower corners. Match corrections cover close-range tackles, goalkeeper recovery after a dive, substitute bib removal, a continuous second-half ball placement and gait transitions between the authorized Solv3 clips.
+
+<div align="center">
+<img src="media/development-2026-10-22/fourth-official.png" width="32%" alt="Fourth official holding the substitution board above his hands">
+<img src="media/development-2026-10-22/match-720p.png" width="32%" alt="720 by 1280 portrait 3D match development capture">
+<img src="media/development-2026-10-22/match-1080p.png" width="32%" alt="1080 by 1920 portrait 3D match development capture">
+</div>
+
+The editor renders its 3D preview on demand and keeps repeated seat geometry batched. Colors and installations update without rebuilding unrelated seating. Silent background verification covers the desktop interface, the exported application, numeric references and the actual seven-round group schedules. The portrait match captures were made on Windows at **720 × 1280** and **1080 × 1920**; they are desktop development evidence, not Android or iPhone performance certification.
 
 ## Official game snapshots
 
