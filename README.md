@@ -165,7 +165,7 @@ The library now includes **24 original team dugouts**: six construction families
 
 ### No9Editor — a separate desktop application
 
-**No9Editor 1.1.6** is a standalone Windows editor with database search, readable regulations and a live 3D stadium preview. It does not require an installed Godot editor. Names, club short names, colors, stadium capacity and appearance are editable. Rules, ratings, memberships and identifiers are protected.
+**No9Editor 1.1.7** is a standalone Windows editor with database search, readable regulations and a live 3D stadium preview. It does not require an installed Godot editor. Names, club short names, colors, stadium capacity and appearance are editable. Rules, ratings, memberships and identifiers are protected.
 
 Selecting a league shows its name and the **clubs registered in the catalog's current season**. Regulations are presented as paragraphs rather than code. The international competition browser separates **17 club competitions and seven national-team competitions**. The game's Champions League, Europa League and Conference League each use groups of eight, with seven matches per club: one match against each opponent, without a group-stage return leg.
 
@@ -173,10 +173,18 @@ Existing surroundings are selected by **Urban/Rural**, **Plain/Mountain** and on
 
 The stadium preview reuses the basic stadium's actual playing surface, markings, corner flags and both goals with nets. It adds configurable stands around the pitch and provides the touchline space needed for the selected dugouts. Coach figures are hidden in the editor preview. Changing a venue no longer leaves another stadium on screen after an invalid selection. Incompatible edits restore the last valid configuration and show their reason above the preview. These settings remain stadium authoring and database configuration; they do not automatically replace every existing 3D match scene.
 
+The new rear-access option is available for single-ring stadiums: broad external stairs climb planted embankments to the continuous top promenade. Other choices include base entries, entries every twenty rows, a raised two-metre stand base and independent corners without adjacent end stands. Manual side capacities retain an unfinished draft while the total is being completed. A closer camera and WASD free view make interior inspection easier. Dugout seat and panel colors use two compact adjacent controls.
+
+<p align="center"><img src="media/development-2026-10-23/rear-access-single-ring.png" width="95%" alt="Single-ring stadium prototype with external stairs on green embankments and a continuous upper promenade"></p>
+
+<p align="center"><img src="media/development-2026-10-23/raised-base-open-corners.png" width="95%" alt="Raised stand base and independent curved corners without adjoining end stands"></p>
+
+Updated saved environments use reduced broadleaf and bush models, grouped in spatial batches. Mowed turf is a 1.6 cm near-view prototype with curved geometry and a distant surface material. Desktop portrait previews exist at 720×1280 and 1080×1920; they are not full-match or Android/iOS device benchmarks. Geometry validation covers twenty-five modular stadium assets and the single-page library of 119 individual assets plus two assembly examples.
+
 Changes are saved as **independent update packs**, separate from the original database. Club and stadium changes from different authors can be combined, enabled, disabled and reordered. Conflicting changes to the same field use the last active pack and are reported. The database now uses numeric entity IDs throughout its records and references, with **23,821 globally reserved numbers**. Confirmed stadiums with the same name, city and country share one identity; training grounds are excluded from the stadium editor.
 
 <div align="center">
-<img src="media/development-2026-10-23/no9editor.png" width="95%" alt="No9Editor stadium customization draft: a development configuration, not a reconstruction of the named real stadium">
+<img src="media/development-2026-10-23/no9editor-117.png" width="95%" alt="No9Editor 1.1.7 stadium customization draft with compact dugout colors: a development configuration, not a reconstruction of the named real stadium">
 <img src="media/development-2026-10-22/league-current-season.png" width="95%" alt="League name and the clubs included in the selected current season">
 <img src="media/development-2026-10-22/rules-readable.png" width="95%" alt="League regulations presented as readable paragraphs">
 <img src="media/development-2026-10-22/international-competitions.png" width="95%" alt="International club competition with seven group games and integer point totals">

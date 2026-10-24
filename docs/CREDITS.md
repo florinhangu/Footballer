@@ -11,6 +11,14 @@ Thank you to the people who share their work with the game-development community
 
 ## Characters, environment assets and interface resources
 
+Environment additions reviewed on 24 October 2026:
+
+- **Trees & Bushes** — Painkiller5555, [source](https://www.blendswap.com/blends/view/78071), CC BY 3.0. Adapted into six reduced broadleaf and three bush models.
+- **Realistic Forest with Cycles** — Blenderudit, [source](https://www.blendswap.com/blends/view/70773), CC BY 3.0. Bark texture adapted for reduced foliage.
+- **Mowed Grass – Cycles** — jefftml, [source](https://www.blendswap.com/blends/view/77438), CC BY 3.0. Combed particle paths adapted into 1.6 cm curved near-view blades and a distant surface texture.
+
+These descriptions record modifications; the public presentation repository contains screenshots, not the raw source packs.
+
 | Resource | Creator / origin | License evidence |
 | --- | --- | --- |
 | Humanizer addon | Elissa Moeller; [NitroxNova/Humanizer](https://github.com/NitroxNova/humanizer); bundled plugin version 2.2.0 | [Unlicense](licenses/humanizer-Unlicense.txt) for addon code |
