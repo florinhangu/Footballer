@@ -1,8 +1,20 @@
 # Verification notes
 
-Reviewed: 13 October 2026. Current source baseline: f7e6b4bcc785e967677dd2d4d3a15ebc0e5fc0d5. The earlier presentation review used b52aeca28f3a7ac83cf2ed1a32a8393217d53d18.
+Original verification: 13 October 2026; supplementary source review: **28 October 2026**. Historical source baseline: f7e6b4bcc785e967677dd2d4d3a15ebc0e5fc0d5. The earlier presentation review used b52aeca28f3a7ac83cf2ed1a32a8393217d53d18.
 
 The original presentation used a read-only source/history review. On 13 October, the sprint implementation was validated in focused desktop runs with Godot 4.7.2 and isolated test storage. The HUD was rendered and visually inspected in an isolated test project, without running the complete game. No APK was built or tested on an Android device. Earlier simulation/performance results remain historical documentation, separate from the new focused checks.
+
+## New official 3D evidence · source commit 1b6d67459ae5
+
+The newer game-source documentation reports game version **0.A1.19** (27 October). Its official 3D career fixture uses the shared AuthorityEngine and saves results, ratings and minutes; 2D remains the default and trials use 2D. The portrait HUD update covers 9:16 alignment, overlays and the official (nine) vs friendly (fifteen) reserve limits.
+
+- [Career integration audit](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/audits/career-3d-integration-2026-10-27.md): two-half official match and isolated navigation, persistence and regression checks.
+- [Portrait and reserve audit](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/audits/game-portrait-reserves-2026-10-27.md): 439 focused checks, zero failures across the described scopes.
+- [Official 3D match audit](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/audits/official-3d-match-2026-10-27.md): separate engine, scene and rendering tests.
+- [Solv3 authored actions](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/audits/solv3-actions-2026-10-27.md): 130 clips in the combined library, source-backed animations, contacts and goalkeeper/referree behavior.
+- [No9Editor documentation](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/no9editor.md): independent editor, stadiums, sponsorship, packages and compatibility rules.
+
+The public Footballer README uses eleven new media files sourced directly from the same commit. They were checked in the repository and representative images were visually inspected, but **the current review did not personally run a local Godot copy or test Android/iOS devices**. Source-reported automated checks are not independent reproduction of those tests. A desktop 720/1080 portrait window is not proof of native 3D render resolution or mobile FPS.
 
 ## Sprint update — executed desktop checks
 

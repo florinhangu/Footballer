@@ -2,13 +2,13 @@
 
 [Open Footballer Releases](https://github.com/florinhangu/Footballer/releases).
 
-At the 12 October 2026 publication check, no public release or APK attachment existed. This documentation update does not create a release or upload a binary.
+As checked on **28 October 2026**, the Footballer repository has **no published GitHub Releases** or attached APK. This documentation update does not create a release or upload a binary.
 
 ## Current target
 
 Android APK, portrait interface, ARM32 and ARM64. No verified iOS export preset or release was found.
 
-The development export preset names 0.A1.33 and version code 32; the application configuration still names 0.A1.16. Reconcile these before publishing a build.
+The current game source reports development version **0.A1.19** (27 October 2026). The older, conflicting export/version metadata documented on 12 October is historical and must be rechecked against the final source and Android build before publishing. Neither the version number nor the screenshots establishes a tested public APK.
 
 ## What each release should tell a player
 

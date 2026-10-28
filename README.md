@@ -6,13 +6,59 @@
 
 **A football career begins with a chance. What you do with it is up to you.**
 
-Offline player career · Real football competitions · Touch-first matches · Native 3D development
+Offline player career · 2D and official 3D matches · Touch-first football · Living competitions
 
-<img src="media/snapshots/Screenshot%202026-10-13%20190839.png" width="35%" alt="No9 live 2D football match"> <img src="media/snapshots/Screenshot%202026-10-13%20185351.png" width="35%" alt="No9 native 3D football demonstration">
+<img src="media/snapshots/Screenshot%202026-10-13%20190839.png" width="35%" alt="No9 live 2D football match"> <img src="media/updates-2026-10-27/official-match-720p.jpg" width="35%" alt="Official native 3D career match from the real Godot game">
 
 **[Explore the game](#the-footballer-is-you) · [See the screenshots](#official-game-snapshots) · [Public releases](https://github.com/florinhangu/Footballer/releases)**
 
 </div>
+
+## Latest game milestone — 27 October 2026
+
+**No9: Day One / No9 GameCore · game 0.A1.19 · Godot 4.7.2**
+
+The career now supports **official 3D matches**, rather than limiting 3D to a separate demonstration. In **Configurator → Afișare meci oficial**, choose **3D** (the default remains **2D**). The fixture uses its actual teams, stadium and career footballer. The 2D and 3D presentations share the same **AuthorityEngine** match rules, result calculation, match statistics and career persistence. Youth trials still use the existing 2D path.
+
+The updated match view fills the available **9:16 portrait** width with an overlaid score, match information and sprint/energy bars. Competitive official fixtures show **up to nine substitutes per team**; friendlies retain up to fifteen. The 3D view offers TV and ball cameras and speeds of **0.5×, 1×, 1.25× and 1.5×**. Results, minutes, player ratings and statistics return to the career after **Continuă**.
+
+<div align="center">
+  <img src="media/updates-2026-10-27/official-match-720p.jpg" width="30%" alt="Actual official career 3D match running in the No9 Godot scene">
+  <img src="media/updates-2026-10-27/official-result-720p.jpg" width="30%" alt="Actual match statistics and Continue screen in the Godot career scene">
+  <img src="media/snapshots/Screenshot%202026-10-13%20190839.png" width="30%" alt="Established 2D career match">
+  <br><sub>Left and center: official 3D career UI captured in desktop Godot; right: original 2D career match. The 3D screenshots are controlled short scenarios, not evidence of a full Android playthrough.</sub>
+</div>
+
+The development reports record **439 focused checks with no failures** for the portrait HUD, substitutes, camera continuity and related 2D/3D paths. Separate official-career tests exercised two halves and saving/reloading the result. These are **reported desktop regression tests**, not Android/iOS acceptance, stable mobile-FPS certification or a published APK. See the [portrait and bench audit](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/audits/game-portrait-reserves-2026-10-27.md) and the [career integration report](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/audits/career-3d-integration-2026-10-27.md).
+
+### New Solv3 footballer, goalkeeper and motion captures
+
+The current native character pipeline uses **Solv3** and one shared **130-clip animation library**, including four approved additional mocap sequences and ten new authored actions. Those actions include standing tackles, a left-foot penalty and referee signals. The goalkeeper uses a long-sleeved top and separate gloves. The football, goalkeeper and referee are shown here from **actual project scenes and baked animations**, not from unrelated concept renders.
+
+<div align="center">
+  <img src="media/updates-2026-10-27/solv3-player.png" width="28%" alt="Solv3 in-game footballer rig and kit">
+  <img src="media/updates-2026-10-27/solv3-goalkeeper.png" width="28%" alt="Solv3 goalkeeper wearing gloves and long sleeves">
+  <img src="media/updates-2026-10-27/solv3-mocap.jpg" width="40%" alt="Approved mocap action poses from the native Solv3 pipeline">
+</div>
+
+<p align="center"><img src="media/updates-2026-10-27/solv3-actions.jpg" width="92%" alt="Godot-baked authored football and referee actions"></p>
+
+<details>
+<summary><strong>Watch real animated previews — tackle and referee card</strong></summary>
+<p align="center"><img src="media/updates-2026-10-27/standing-tackle.gif" width="45%" alt="Godot baked standing-tackle action"><img src="media/updates-2026-10-27/referee-card.gif" width="45%" alt="Godot baked referee card signal"></p>
+</details>
+
+### New desktop editor and data-package views
+
+**No9Editor 1.2.17** introduced editable branding for kit sponsors, advertisements and manufacturer logos, as well as more complete portable data packages. The subsequent **1.2.18** desktop installation was checked alongside the optimized match environment. Saved editor stadium configurations can also be exported and loaded into the actual 3D match. The following images show the editor and kit preview, plus the game's in-app package screen; they are **different interfaces**, not three views of the same screen.
+
+<div align="center">
+  <img src="media/updates-2026-10-27/editor-1.2.17.png" width="49%" alt="No9Editor desktop application, release 1.2.17">
+  <img src="media/updates-2026-10-27/editor-kit-preview.png" width="49%" alt="Actual player shirt branding preview from No9Editor">
+  <br><img src="media/updates-2026-10-27/data-packages.png" width="30%" alt="Native in-game package management screen">
+</div>
+
+See the [editor documentation](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/no9editor.md), [Solv3 action audit](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/audits/solv3-actions-2026-10-27.md), and [media provenance](media/README.md).
 
 ## The footballer is you
 
@@ -20,7 +66,7 @@ Offline player career · Real football competitions · Touch-first matches · Na
 
 Start young. Find a team willing to give you a chance. Grow your abilities, earn minutes, make the most of the ball and decide where your career will go. Beyond your own pitch, leagues keep moving: tables change, clubs earn promotion or face relegation, cup campaigns continue and international opportunities emerge.
 
-The game is designed around **offline progression and local saves**. The main career experience currently plays matches in **2D**. A separate, interactive **native 3D** development experience already includes footballers, training, facilities and demonstration matches, with full career integration as a future goal.
+The game is designed around **offline progression and local saves**. Official career matches can now use **2D (default) or native 3D**; youth trials remain on the 2D route. Dedicated native 3D training, character and stadium development scenes also remain available. This implementation has been tested on desktop; mobile performance and release readiness are still to be verified.
 
 ## The experience today
 
@@ -30,7 +76,7 @@ The game is designed around **offline progression and local saves**. The main ca
 | Compete for contracts and a starting place | Tap, double tap and swipe controls | Regional divisions, play-offs and promotion battles |
 | Develop attributes through training and recovery | Passing, crossing, shooting, challenges and set pieces | International club and national-team competitions |
 | Follow energy, form, club life and history | Sprint and energy reserves tied to player abilities | Thousands of clubs across six geographic regions |
-| Track your club, fixtures, career and trophies | Native 3D practice and match demonstrations | A world that continues through successive seasons |
+| Track your club, fixtures, career and trophies | Optional official 3D career matches, plus native practice scenes | A world that continues through successive seasons |
 
 ### From the first trial to the next season
 
@@ -112,13 +158,13 @@ The football calendar also supports national cups, international club competitio
 
 A football career is more than match results. No9 includes a phone, an agent, messages, clubs, training facilities, schedules, equipment, profile and statistics, plus city services and leisure activities. The aim is for your decisions and achievements between matches to feel connected to the player you become on the pitch.
 
-## A 3D future already taking shape
+## Native 3D football and player development
 
-The native Godot 3D environment is a separate, interactive part of the project. It is more than concept art: it includes a footballer with customizable appearance and kit, football animations, ball contact, team movement, goalkeeper actions, an interactive training catalog and playable demonstration football.
+The native Godot 3D environment now serves both **official career fixtures** and separate development/training scenes. It contains the Solv3 player with a customizable kit, football actions, team movement, goalkeeper play, the training catalog, stadium environments and demonstration football. Official results share the existing career simulation and save path; the training and animation showcases remain clearly marked as development facilities.
 
 ### The player
 
-The current 3D player pipeline uses the Solv3 model prepared in Blender, football kit and an authorized Mixamo animation catalog. Player, goalkeeper, referee and coach roles have separate presentation requirements. The dedicated showcase includes movements, passes, shots, headers, challenges, goalkeeper actions and celebrations.
+The current 3D player pipeline uses the Solv3 model prepared in Blender, football kit and a shared catalog of 130 authorized/native animation clips. Player, goalkeeper, referee and coach roles have separate presentation requirements. The dedicated showcase includes movements, passes, shots, headers, challenges, goalkeeper actions and celebrations.
 
 <div align="center">
 <img src="media/snapshots/Screenshot%202026-10-13%20183822.png" width="30%" alt="Native 3D player wearing training kit">
@@ -137,7 +183,7 @@ Five training-base configurations range from a single small pitch to multi-pitch
 
 ### Football, stadiums and match presentation
 
-Native 3D demonstrations include **5+1 small-sided play** and **11-versus-11 friendly play** with match officials, team arrivals, substitutions, goals and full-time presentation. They are development and demonstration modes; the main career is not yet a fully integrated 3D career mode.
+Native 3D demonstrations include **5+1 small-sided play** and **11-versus-11 friendly play** with match officials, arrivals, substitutions and results. **Official competitive career fixtures can now run in 3D**, with the existing AuthorityEngine and career completion flow. Separate development matches remain distinct from these official fixtures.
 
 <div align="center">
 <img src="media/snapshots/Screenshot%202026-10-13%20185646.png" width="30%" alt="Teams walking onto the pitch">
@@ -165,7 +211,7 @@ The library now includes **24 original team dugouts**: six construction families
 
 ### No9Editor — a separate desktop application
 
-**No9Editor 1.1.13** is a standalone Windows editor with database search, readable regulations and a live 3D stadium preview. It does not require an installed Godot editor. Names, club short names, two or three identity colors, stadium assignment, home/away/optional third kit colors, stadium capacity and appearance are editable. Stadiums can be searched by name or created without rewriting the base catalogs. Rules, ratings, memberships and identifiers are protected.
+**No9Editor** (up to **1.2.18** in the 27 October desktop verification; the stadium authoring description below began with 1.1.13) is a standalone Windows editor with database search, readable regulations and a live 3D stadium preview. It does not require an installed Godot editor. Names, club short names, two or three identity colors, stadium assignment, home/away/optional third kit colors, stadium capacity and appearance are editable. Stadiums can be searched by name or created without rewriting the base catalogs. Rules, ratings, memberships and identifiers are protected.
 
 Selecting a league shows its name and the **clubs registered in the catalog's current season**. Regulations are presented as paragraphs rather than code. The international competition browser separates **17 club competitions and seven national-team competitions**. The game's Champions League, Europa League and Conference League each use groups of eight, with seven matches per club: one match against each opponent, without a group-stage return leg.
 
@@ -219,7 +265,7 @@ The editor renders its 3D preview on demand and keeps repeated seat geometry bat
 
 ## Official game snapshots
 
-The historical collection below comes from the **original No9 game/project snapshots** captured on 13 October 2026. Its **40 PNG files** were copied from the game's snapshot collection into this public repository, without replacing them with mock-ups, AI-generated samples or unrelated demonstrations. The snapshots include both the career's 2D interface and the dedicated 3D development modes.
+The historical collection below comes from the **original No9 game/project snapshots** captured on 13 October 2026. **Eleven more media files from 25–27 October**, including two action GIFs, appear in the [latest milestone](#latest-game-milestone--27-october-2026) above. Its **40 PNG files** were copied from the game's snapshot collection into this public repository, without replacing them with mock-ups, AI-generated samples or unrelated demonstrations. The snapshots include both the career's 2D interface and the dedicated 3D development modes.
 
 <details>
 <summary><strong>Career, tactics and the football world — 8 screenshots</strong></summary>
@@ -286,7 +332,7 @@ The historical collection below comes from the **original No9 game/project snaps
 
 The long-term goal is a footballer's life that feels connected from the first trial to the biggest matches: a living competitive world, meaningful player growth and a match experience driven by football logic.
 
-Next priorities include integrating the existing 3D presentation directly into career fixtures and results, refining player and goalkeeper animation, improving match atmosphere and stadium life, expanding the experience around contracts and club relationships, and optimizing loading and performance on real mobile devices.
+Next priorities include validating the now-connected official 3D match flow on actual Android devices, refining player and goalkeeper motion, improving match atmosphere and stadium life, extending contracts and club relationships, and measuring loading times, frame pacing and battery demands on real hardware.
 
 **Current status:** active development. The Godot project currently has an Android export configuration; **iOS is a target platform**, not an announced or verified public release. The existence of development scenes and screenshots does not establish a completed mobile build.
 
