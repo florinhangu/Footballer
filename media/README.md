@@ -1,5 +1,10 @@
 # Screenshot provenance
 
+## Standalone editor 1.2.25 captures
+
+The four images in `media/editor-1.2.25/` are unedited copies of `docs/screenshots/editor-kit-gallery-colors-2026-11-01/` at source commit [`fa41dedaf2bd`](https://github.com/florinhangu/no9dayone/commit/fa41dedaf2bde9fd19ec510f15496ab751a9fe99). They were captured from the separate exported No9Editor 1.2.25 application with audio driver Dummy, then visually inspected. The shirt, shorts and socks popups show the selected team kit colors; the back preview shows independently chosen name and number fonts. They do not show an editor embedded in the game. The earlier media collections below retain their original versions and source snapshots.
+
+
 ## New captures — 1 November 2026
 
 The six files under `media/updates-2026-11-01/` are unedited copies of actual Godot captures. The friendly uses the game's shared match renderer with a controlled camera and isolated season-five state. The editor images were captured from the **exported standalone No9Editor 1.2.23 pack**, with its own database and without the game's autoloads. They show separate applications and are labelled accordingly; no image was generated with AI.

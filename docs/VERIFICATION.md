@@ -1,5 +1,12 @@
 # Verification notes
 
+## Standalone editor 1.2.25: thumbnail popups, colors and typography
+
+The exported standalone editor now uses a model button that opens only its garment category, followed by selection and popup close. Model thumbnails are unnamed, no larger than 72×72, sorted numerically and exclude UV guides. They use the current club-kit colors for each piece, refresh when those colors change and keep other garment choices independent. The back preview uses the independently selected name and number fonts.
+
+Focused checks passed: **122** editor scheduling/form/gallery/preview checks, **62** independent KitPreview choice checks and **33** font/section checks. The actual exported 1.2.25 executable was captured with audio driver Dummy, checking every thumbnail, tile dimensions and popup selection/close for clubs and federations. Its error output was empty. The installed single executable matches the tested export by SHA-256. Older test results below retain their original scopes. [Current source audit](https://github.com/florinhangu/no9dayone/blob/fa41dedaf2bde9fd19ec510f15496ab751a9fe99/docs/audits/editor-kit-gallery-colors-2026-11-01.md).
+
+
 ## Kit and standalone editor update — 1 November 2026
 
 Source snapshot: [`01d3dc3da5c6`](https://github.com/florinhangu/no9dayone/commit/01d3dc3da5c6dfc63580d97309b0c22c12b41376). [Detailed audit](https://github.com/florinhangu/no9dayone/blob/01d3dc3da5c6dfc63580d97309b0c22c12b41376/docs/audits/editor-season-kits-2026-11-01.md), [texture/UV parity report](https://github.com/florinhangu/no9dayone/blob/01d3dc3da5c6dfc63580d97309b0c22c12b41376/docs/audits/editor-kit-parity-2026-11-01.json).

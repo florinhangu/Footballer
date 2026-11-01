@@ -27,15 +27,15 @@ The team page's 2D shirt and the 3D match use the same saved shirt design and co
   <br><sub>Controlled desktop Godot captures from the actual friendly renderer; the shirt images in the corners show the same saved team designs.</sub>
 </div>
 
-### No9Editor 1.2.23 — a separate standalone Windows application
+### No9Editor 1.2.25 — a separate standalone Windows application
 
-**No9Editor is its own single executable, separate from the game.** In its club and federation forms, authors can select each garment's model and three colors, then preview both sleeve lengths from the front or back. Changing one garment keeps the other selections. The game receives the changes through an exported data pack, imported and activated by the player.
+**No9Editor is its own single executable, separate from the game.** In its club and federation forms, authors can select each garment's model and three colors, then preview both sleeve lengths from the front or back. A model button opens a grid of unnamed **72×72 thumbnails**, in numeric order and limited to the playable designs for that garment. UV guides are excluded. The thumbnails and model button use the current club-kit colors for that piece and refresh when those colors change. Selecting a tile closes the grid and keeps the choice on the button. The back preview displays the name and number with their independently selected fonts. Changing one garment keeps the other selections. The game receives the changes through an exported data pack, imported and activated by the player.
 
 An authored kit applies to **one normal kit edition per career**. It is available at the start of a new game; in an existing career, the pack enters at the next season boundary and the kit waits for the team's next scheduled change. L2/L3 clubs and national teams keep their two-season cycle. After that authored edition, normal randomization resumes unless the author makes another kit change. Editing an unrelated name or stadium does not reactivate an already-used kit.
 
 <div align="center">
-  <img src="media/updates-2026-11-01/club-kit-form.png" width="49%" alt="Independent shirt, shorts and socks model and color selectors in the standalone club editor">
-  <img src="media/updates-2026-11-01/federation-kit-preview.png" width="49%" alt="Romanian national-team kit in No9Editor 1.2.23 using the same KitPreview scene and native OCTO geometry">
+  <img src="media/editor-1.2.25/federation-jersey-models.png" width="49%" alt="Shirt-only model popup in No9Editor 1.2.25, using the club kit colors and excluding UV guides">
+  <img src="media/editor-1.2.25/federation-kit-back.png" width="49%" alt="Back preview with independently chosen fonts for the name and number in standalone No9Editor 1.2.25">
   <br><sub>These are captures of the separate exported No9Editor application, not an in-game editor.</sub>
 </div>
 
@@ -238,7 +238,7 @@ The library now includes **24 original team dugouts**: six construction families
 
 ### No9Editor — a separate desktop application
 
-**No9Editor** (currently **1.2.23**, a separate standalone Windows executable; the stadium authoring description below began with 1.1.13) is a standalone Windows editor with database search, readable regulations and a live 3D stadium preview. It does not require an installed Godot editor. Names, club short names, two or three identity colors, stadium assignment, home/away/optional third kit colors, stadium capacity and appearance are editable. Stadiums can be searched by name or created without rewriting the base catalogs. Rules and identifiers are protected. National-team, club and training-facility ratings are editable for new careers; league memberships can be changed for new careers.
+**No9Editor** (currently **1.2.25**, a separate standalone Windows executable; the stadium authoring description below began with 1.1.13) is a standalone Windows editor with database search, readable regulations and a live 3D stadium preview. It does not require an installed Godot editor. Names, club short names, two or three identity colors, stadium assignment, home/away/optional third kit colors, stadium capacity and appearance are editable. Stadiums can be searched by name or created without rewriting the base catalogs. Rules and identifiers are protected. National-team, club and training-facility ratings are editable for new careers; league memberships can be changed for new careers.
 
 Selecting a league shows its name and the **clubs registered in the catalog's current season**. Regulations are presented as paragraphs rather than code. The international competition browser separates **17 club competitions and seven national-team competitions**. The game's Champions League, Europa League and Conference League each use groups of eight, with seven matches per club: one match against each opponent, without a group-stage return leg.
 
