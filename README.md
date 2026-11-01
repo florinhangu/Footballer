@@ -14,7 +14,34 @@ Offline player career · 2D and official 3D matches · Touch-first football · L
 
 </div>
 
-## Latest game milestone — 27 October 2026
+## Latest development update — 1 November 2026
+
+The 3D match now uses the **OCTO footballer and a complete three-piece kit**. Shirt, shorts and socks have independent models and color palettes, shared between the kit preview and the players on the pitch. The shirt catalog contains **60 designs in short- and long-sleeved versions**, alongside **10 shorts designs and 11 sock designs**. New PNG designs added to the supported asset folders are discovered automatically when included in the application build. If a selected 3D design is unavailable, that piece uses its primary color.
+
+The team page's 2D shirt and the 3D match use the same saved shirt design and colors. Clubs receive seasonal kit editions: **every season in L1**, **every two seasons in L2/L3 and for national teams**. Shorts and socks can independently draw their colors from the club palette. Friendlies use the career's current kit edition, and each saved edition remains stable when reloading the game.
+
+<div align="center">
+  <img src="media/updates-2026-11-01/season-5-home.png" width="31%" alt="OCTO footballer wearing Chelsea's saved season-five shirt, shorts and socks, beside the corresponding 2D shirt">
+  <img src="media/updates-2026-11-01/season-5-away.png" width="31%" alt="Opponent's independently colored three-piece season-five kit in the actual 3D friendly renderer">
+  <img src="media/updates-2026-11-01/season-5-friendly.png" width="31%" alt="Current-season club kits in the real 22-player 3D friendly view">
+  <br><sub>Controlled desktop Godot captures from the actual friendly renderer; the shirt images in the corners show the same saved team designs.</sub>
+</div>
+
+### No9Editor 1.2.23 — a separate standalone Windows application
+
+**No9Editor is its own single executable, separate from the game.** In its club and federation forms, authors can select each garment's model and three colors, then preview both sleeve lengths from the front or back. Changing one garment keeps the other selections. The game receives the changes through an exported data pack, imported and activated by the player.
+
+An authored kit applies to **one normal kit edition per career**. It is available at the start of a new game; in an existing career, the pack enters at the next season boundary and the kit waits for the team's next scheduled change. L2/L3 clubs and national teams keep their two-season cycle. After that authored edition, normal randomization resumes unless the author makes another kit change. Editing an unrelated name or stadium does not reactivate an already-used kit.
+
+<div align="center">
+  <img src="media/updates-2026-11-01/club-kit-form.png" width="49%" alt="Independent shirt, shorts and socks model and color selectors in the standalone club editor">
+  <img src="media/updates-2026-11-01/federation-kit-preview.png" width="49%" alt="Romanian national-team kit in No9Editor 1.2.23 using the same KitPreview scene and native OCTO geometry">
+  <br><sub>These are captures of the separate exported No9Editor application, not an in-game editor.</sub>
+</div>
+
+The export now preserves the project's verified texture imports: **all 145 PNGs, including UV guides, matched their loaded pixel data**, and short/long-sleeved garment geometry and UVs matched between the source project and the standalone editor. The guides are excluded from team design selection. The desktop checks and screenshot provenance are listed in the [verification notes](docs/VERIFICATION.md#kit-and-standalone-editor-update--1-november-2026) and [media notes](media/README.md#new-captures--1-november-2026).
+
+## Previous game milestone — 27 October 2026
 
 **No9: Day One / No9 GameCore · game 0.A1.19 · Godot 4.7.2**
 
@@ -33,7 +60,7 @@ The development reports record **439 focused checks with no failures** for the p
 
 ### New Solv3 footballer, goalkeeper and motion captures
 
-The current native character pipeline uses **Solv3** and one shared **130-clip animation library**, including four approved additional mocap sequences and ten new authored actions. Those actions include standing tackles, a left-foot penalty and referee signals. The goalkeeper uses a long-sleeved top and separate gloves. The football, goalkeeper and referee are shown here from **actual project scenes and baked animations**, not from unrelated concept renders.
+The 27 October native character pipeline used **Solv3** and one shared **130-clip animation library**, including four approved additional mocap sequences and ten new authored actions. Those actions include standing tackles, a left-foot penalty and referee signals. The goalkeeper uses a long-sleeved top and separate gloves. The football, goalkeeper and referee are shown here from **actual project scenes and baked animations**, not from unrelated concept renders.
 
 <div align="center">
   <img src="media/updates-2026-10-27/solv3-player.png" width="28%" alt="Solv3 in-game footballer rig and kit">
@@ -160,11 +187,11 @@ A football career is more than match results. No9 includes a phone, an agent, me
 
 ## Native 3D football and player development
 
-The native Godot 3D environment now serves both **official career fixtures** and separate development/training scenes. It contains the Solv3 player with a customizable kit, football actions, team movement, goalkeeper play, the training catalog, stadium environments and demonstration football. Official results share the existing career simulation and save path; the training and animation showcases remain clearly marked as development facilities.
+The native Godot 3D environment now serves both **official career fixtures** and separate development/training scenes. It contains the OCTO match player with a customizable three-piece kit, football actions, team movement, goalkeeper play, the training catalog, stadium environments and demonstration football. Official results share the existing career simulation and save path; the training and animation showcases remain clearly marked as development facilities.
 
 ### The player
 
-The current 3D player pipeline uses the Solv3 model prepared in Blender, football kit and a shared catalog of 130 authorized/native animation clips. Player, goalkeeper, referee and coach roles have separate presentation requirements. The dedicated showcase includes movements, passes, shots, headers, challenges, goalkeeper actions and celebrations.
+The current 3D match pipeline uses the OCTO model prepared in Blender, independent shirt/shorts/socks textures and its baked football animation catalog. The earlier Solv3 showcase and its 130-clip library remain documented in the 27 October update. Player, goalkeeper, referee and coach roles have separate presentation requirements. The dedicated showcase includes movements, passes, shots, headers, challenges, goalkeeper actions and celebrations.
 
 <div align="center">
 <img src="media/snapshots/Screenshot%202026-10-13%20183822.png" width="30%" alt="Native 3D player wearing training kit">
@@ -211,7 +238,7 @@ The library now includes **24 original team dugouts**: six construction families
 
 ### No9Editor — a separate desktop application
 
-**No9Editor** (up to **1.2.18** in the 27 October desktop verification; the stadium authoring description below began with 1.1.13) is a standalone Windows editor with database search, readable regulations and a live 3D stadium preview. It does not require an installed Godot editor. Names, club short names, two or three identity colors, stadium assignment, home/away/optional third kit colors, stadium capacity and appearance are editable. Stadiums can be searched by name or created without rewriting the base catalogs. Rules, ratings, memberships and identifiers are protected.
+**No9Editor** (currently **1.2.23**, a separate standalone Windows executable; the stadium authoring description below began with 1.1.13) is a standalone Windows editor with database search, readable regulations and a live 3D stadium preview. It does not require an installed Godot editor. Names, club short names, two or three identity colors, stadium assignment, home/away/optional third kit colors, stadium capacity and appearance are editable. Stadiums can be searched by name or created without rewriting the base catalogs. Rules and identifiers are protected. National-team, club and training-facility ratings are editable for new careers; league memberships can be changed for new careers.
 
 Selecting a league shows its name and the **clubs registered in the catalog's current season**. Regulations are presented as paragraphs rather than code. The international competition browser separates **17 club competitions and seven national-team competitions**. The game's Champions League, Europa League and Conference League each use groups of eight, with seven matches per club: one match against each opponent, without a group-stage return leg.
 

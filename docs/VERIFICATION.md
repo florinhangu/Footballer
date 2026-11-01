@@ -1,5 +1,36 @@
 # Verification notes
 
+## Kit and standalone editor update — 1 November 2026
+
+Source snapshot: [`01d3dc3da5c6`](https://github.com/florinhangu/no9dayone/commit/01d3dc3da5c6dfc63580d97309b0c22c12b41376). [Detailed audit](https://github.com/florinhangu/no9dayone/blob/01d3dc3da5c6dfc63580d97309b0c22c12b41376/docs/audits/editor-season-kits-2026-11-01.md), [texture/UV parity report](https://github.com/florinhangu/no9dayone/blob/01d3dc3da5c6dfc63580d97309b0c22c12b41376/docs/audits/editor-kit-parity-2026-11-01.json).
+
+This update was checked locally in Windows Godot 4.7.2 Compatibility. It covers the current OCTO match character, shared seasonal 2D/3D kit selection and the **separate No9Editor 1.2.23 executable**. New captures were taken from the actual friendly renderer and from the exported standalone editor pack. The editor's installed executable matches the tested export by SHA-256. Tests use isolated career/editor storage; audio is disabled for verification.
+
+| Current check | Checks | Failures |
+| --- | ---: | ---: |
+| Editor kit scheduling, save/reload, package rollover and club/federation forms | 68 | 0 |
+| Existing team/stadium kit form | 22 | 0 |
+| Portable editor data packages | 23 | 0 |
+| Seasonal 3D kit integration | 739 | 0 |
+| 2D shirt preview | 82 | 0 |
+| PNG shorts/socks discovery and mapping | 101 | 0 |
+| Offline career creation, saves and season rollover | 136 | 0 |
+| Official 3D career integration, controlled fast completion | 46 | 0 |
+| Phone settings and navigation | 22 | 0 |
+| Match presentation fixes | 25 | 0 |
+| Stadium defaults | 177 | 0 |
+| OCTO appearance | 56 | 0 |
+| Independent KitPreview garment choices | 62 | 0 |
+| Exact shirt models and real sleeve variants | 289 | 0 |
+| Match presentation scene | 44 | 0 |
+| Rendered season-five friendly, Chelsea / Pacífico FC | 139 | 0 |
+
+The friendly checks the selected PNG and primary color on all three garments for all 22 actors, plus the corresponding 2D shirt images. The official fast test uses a controlled final whistle and verifies result persistence; it does not stand for a continuously played full match. The friendly's shutdown reported two unreleased GL textures after the assertions and captures completed.
+
+All **145 loaded kit PNGs** matched between the source project and exported editor, including UV guide files. SS/LS garment vertices, indices and UV coordinates also matched. This comparison is of the garment asset data, not a claim that every skin, hair or interface pixel in two complete screenshots is identical. Team selectors exclude the guides.
+
+No APK was built or published and no Android/iOS device was tested in this update. The older sections below retain their original dates and verification scope.
+
 Original verification: 13 October 2026; supplementary source review: **28 October 2026**. Historical source baseline: f7e6b4bcc785e967677dd2d4d3a15ebc0e5fc0d5. The earlier presentation review used b52aeca28f3a7ac83cf2ed1a32a8393217d53d18.
 
 The original presentation used a read-only source/history review. On 13 October, the sprint implementation was validated in focused desktop runs with Godot 4.7.2 and isolated test storage. The HUD was rendered and visually inspected in an isolated test project, without running the complete game. No APK was built or tested on an Android device. Earlier simulation/performance results remain historical documentation, separate from the new focused checks.

@@ -1,6 +1,21 @@
 # Screenshot provenance
 
-The historical archived images were copied from the No9: Day One development snapshot b52aeca28f3a7ac83cf2ed1a32a8393217d53d18. A second collection below contains newly verified media present at source commit 1b6d67459ae5bcaf5bb0f587e9131839c0a642cb. The README retains only the existing career and 2D match captures. Isolated render tests and environment-only previews are not shown there; new screenshots must come from the complete game.
+## New captures — 1 November 2026
+
+The six files under `media/updates-2026-11-01/` are unedited copies of actual Godot captures. The friendly uses the game's shared match renderer with a controlled camera and isolated season-five state. The editor images were captured from the **exported standalone No9Editor 1.2.23 pack**, with its own database and without the game's autoloads. They show separate applications and are labelled accordingly; no image was generated with AI.
+
+| Public file | Original game repository path | Context |
+| --- | --- | --- |
+| season-5-home.png | docs/screenshots/season-kits-2026-11-01/season-5-home.png | Chelsea's three-piece kit; saved 2D shirts shown in the corners |
+| season-5-away.png | docs/screenshots/season-kits-2026-11-01/season-5-away.png | Pacífico FC's independently colored kit in the same friendly |
+| season-5-friendly.png | docs/screenshots/season-kits-2026-11-01/season-5-friendly.png | Actual 22-player friendly renderer, season-five team kits |
+| club-kit-form.png | docs/screenshots/editor-kits-2026-11-01/club-kit-form.png | Standalone editor's club garment models and three-color controls |
+| federation-kit-preview.png | docs/screenshots/editor-kits-2026-11-01/federation-kit-preview.png | Exported editor's front SS/LS kit preview for Romania |
+| federation-kit-back.png | docs/screenshots/editor-kits-2026-11-01/federation-kit-back.png | Same exported preview from behind |
+
+Source snapshot: [`01d3dc3da5c6`](https://github.com/florinhangu/no9dayone/commit/01d3dc3da5c6dfc63580d97309b0c22c12b41376). Capture tools: `tools/capture_season_team_kits.gd` and `tools/capture_editor_kit_schedule.gd`. The captures were visually inspected. They demonstrate desktop rendering and kit selection; they do not establish mobile performance, a public APK release or a full unassisted match playthrough.
+
+The historical archived images were copied from the No9: Day One development snapshot b52aeca28f3a7ac83cf2ed1a32a8393217d53d18. A second collection below contains newly verified media present at source commit 1b6d67459ae5bcaf5bb0f587e9131839c0a642cb. The historical collection below retains its original provenance. Newer game and standalone-editor captures are identified separately by date and application.
 
 | Published file | Original development path | Last commit date (UTC) | Context |
 | --- | --- | --- | --- |
@@ -35,16 +50,16 @@ All files in `media/updates-2026-10-27/` are **byte-identical Git blobs** from `
 
 | Footballer image / animation | Original game repository path | Context |
 | :-- | :-- | :-- |
-| [official-match-720p.jpg](media/updates-2026-10-27/official-match-720p.jpg) | [docs/screenshots/game-portrait-reserves/official-match-720p.jpg](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/game-portrait-reserves/official-match-720p.jpg) | Official career 3D, 720×1280 portrait, controlled UI capture |
-| [official-result-720p.jpg](media/updates-2026-10-27/official-result-720p.jpg) | [docs/screenshots/game-portrait-reserves/official-result-720p.jpg](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/game-portrait-reserves/official-result-720p.jpg) | Official career result UI, controlled short scenario |
-| [solv3-actions.jpg](media/updates-2026-10-27/solv3-actions.jpg) | [docs/screenshots/solv3/authored-actions-overview.jpg](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/solv3/authored-actions-overview.jpg) | Godot Solv3 animation and referee showcase |
-| [solv3-player.png](media/updates-2026-10-27/solv3-player.png) | [docs/screenshots/solv3/field-720p.png](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/solv3/field-720p.png) | Solv3 player scene |
-| [solv3-goalkeeper.png](media/updates-2026-10-27/solv3-goalkeeper.png) | [docs/screenshots/solv3/keeper-720p.png](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/solv3/keeper-720p.png) | Solv3 goalkeeper model with gloves |
-| [solv3-mocap.jpg](media/updates-2026-10-27/solv3-mocap.jpg) | [docs/screenshots/solv3/mocap-2026-10-26/overview.jpg](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/solv3/mocap-2026-10-26/overview.jpg) | Accepted mocap source action comparisons |
-| [editor-1.2.17.png](media/updates-2026-10-27/editor-1.2.17.png) | [docs/screenshots/editor-commercial-1.2.17/editor-commercial.png](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/editor-commercial-1.2.17/editor-commercial.png) | No9Editor 1.2.17 desktop interface |
-| [editor-kit-preview.png](media/updates-2026-10-27/editor-kit-preview.png) | [docs/screenshots/editor-commercial-1.2.17/shirt-front.png](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/editor-commercial-1.2.17/shirt-front.png) | 3D kit branding preview inside editor |
-| [data-packages.png](media/updates-2026-10-27/data-packages.png) | [docs/screenshots/database-packages-2026-10-25/editor-packages-720p.png](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/database-packages-2026-10-25/editor-packages-720p.png) | In-game data packages UI |
-| [standing-tackle.gif](media/updates-2026-10-27/standing-tackle.gif) | [docs/screenshots/solv3/standing_tackle_right.gif](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/solv3/standing_tackle_right.gif) | Published Solv3 tackle playback |
-| [referee-card.gif](media/updates-2026-10-27/referee-card.gif) | [docs/screenshots/solv3/referee_card.gif](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/solv3/referee_card.gif) | Published Solv3 referee-card playback |
+| [official-match-720p.jpg](updates-2026-10-27/official-match-720p.jpg) | [docs/screenshots/game-portrait-reserves/official-match-720p.jpg](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/game-portrait-reserves/official-match-720p.jpg) | Official career 3D, 720×1280 portrait, controlled UI capture |
+| [official-result-720p.jpg](updates-2026-10-27/official-result-720p.jpg) | [docs/screenshots/game-portrait-reserves/official-result-720p.jpg](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/game-portrait-reserves/official-result-720p.jpg) | Official career result UI, controlled short scenario |
+| [solv3-actions.jpg](updates-2026-10-27/solv3-actions.jpg) | [docs/screenshots/solv3/authored-actions-overview.jpg](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/solv3/authored-actions-overview.jpg) | Godot Solv3 animation and referee showcase |
+| [solv3-player.png](updates-2026-10-27/solv3-player.png) | [docs/screenshots/solv3/field-720p.png](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/solv3/field-720p.png) | Solv3 player scene |
+| [solv3-goalkeeper.png](updates-2026-10-27/solv3-goalkeeper.png) | [docs/screenshots/solv3/keeper-720p.png](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/solv3/keeper-720p.png) | Solv3 goalkeeper model with gloves |
+| [solv3-mocap.jpg](updates-2026-10-27/solv3-mocap.jpg) | [docs/screenshots/solv3/mocap-2026-10-26/overview.jpg](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/solv3/mocap-2026-10-26/overview.jpg) | Accepted mocap source action comparisons |
+| [editor-1.2.17.png](updates-2026-10-27/editor-1.2.17.png) | [docs/screenshots/editor-commercial-1.2.17/editor-commercial.png](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/editor-commercial-1.2.17/editor-commercial.png) | No9Editor 1.2.17 desktop interface |
+| [editor-kit-preview.png](updates-2026-10-27/editor-kit-preview.png) | [docs/screenshots/editor-commercial-1.2.17/shirt-front.png](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/editor-commercial-1.2.17/shirt-front.png) | 3D kit branding preview inside editor |
+| [data-packages.png](updates-2026-10-27/data-packages.png) | [docs/screenshots/database-packages-2026-10-25/editor-packages-720p.png](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/database-packages-2026-10-25/editor-packages-720p.png) | In-game data packages UI |
+| [standing-tackle.gif](updates-2026-10-27/standing-tackle.gif) | [docs/screenshots/solv3/standing_tackle_right.gif](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/solv3/standing_tackle_right.gif) | Published Solv3 tackle playback |
+| [referee-card.gif](updates-2026-10-27/referee-card.gif) | [docs/screenshots/solv3/referee_card.gif](https://github.com/florinhangu/no9dayone/blob/1b6d67459ae5bcaf5bb0f587e9131839c0a642cb/docs/screenshots/solv3/referee_card.gif) | Published Solv3 referee-card playback |
 
 The visible game UI is Romanian. The public README remains an English-language presentation. Media references are descriptive rather than a certification of the assets' final aesthetic quality or mobile performance.
