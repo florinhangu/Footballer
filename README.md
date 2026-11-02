@@ -14,7 +14,29 @@ Offline player career · 2D and official 3D matches · Touch-first football · L
 
 </div>
 
-## Latest development update — 1 November 2026
+## No9Editor 1.2.26 released — 2 November 2026
+
+**The standalone editor is now in British English.** Its federation, league, competition, regulation, club and stadium pages use the new language system, including project and pack messages, stadium options and revised football competition descriptions. The **Language** selector offers **English (UK)** and **Română** in separate catalogues; each application remembers its choice. Future languages can be added as separate catalogue files.
+
+**[Download No9Editor.exe for Windows 64-bit](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.26/No9Editor.exe)** · **[Release notes and checksum](https://github.com/florinhangu/Footballer/releases/tag/no9editor-v1.2.26)** · **[Editor guide](docs/EDITOR.md)**
+
+Run the single executable without installing Godot. **No9Editor remains a separate application from the game.** Existing projects and packs retain their identities. Conventional English team names include Real Madrid, Steaua Bucharest and Red Star Belgrade; an untouched translated name field keeps its original stored value. Search also accepts English display names.
+
+<img src="media/editor-1.2.26/no9editor-icon.png" width="96" align="right" alt="No9Editor football-and-pencil application icon">
+
+The application has its own Windows icon: a football and gold pencil on navy, with a mint No. 9 badge. It is embedded in the executable for the desktop and taskbar.
+
+<div align="center">
+  <img src="media/editor-1.2.26/english-clubs.png" width="49%" alt="No9Editor 1.2.26 in British English, searching for Bucharest clubs">
+  <img src="media/editor-1.2.26/english-rules.png" width="49%" alt="English league regulations in the separate No9Editor 1.2.26 application">
+  <br><img src="media/editor-1.2.26/federation-jersey-models.png" width="49%" alt="Club-coloured shirt model grid in the English editor">
+  <img src="media/editor-1.2.26/federation-kit-back.png" width="49%" alt="Back kit preview with the selected name and number fonts in No9Editor 1.2.26">
+  <br><sub>Actual captures from the exported Windows editor. Language, database-value retention, kit choices and pack checks are documented in the <a href="docs/VERIFICATION.md#standalone-editor-126-british-english--2-november-2026">verification notes</a>.</sub>
+</div>
+
+The shared localisation framework is also present in the game source. The game's wider dialogue and prose review is continuing; this release delivers the English standalone editor.
+
+## Game kit update — 1 November 2026
 
 The 3D match now uses the **OCTO footballer and a complete three-piece kit**. Shirt, shorts and socks have independent models and color palettes, shared between the kit preview and the players on the pitch. The shirt catalog contains **60 designs in short- and long-sleeved versions**, alongside **10 shorts designs and 11 sock designs**. New PNG designs added to the supported asset folders are discovered automatically when included in the application build. If a selected 3D design is unavailable, that piece uses its primary color.
 
@@ -27,7 +49,7 @@ The team page's 2D shirt and the 3D match use the same saved shirt design and co
   <br><sub>Controlled desktop Godot captures from the actual friendly renderer; the shirt images in the corners show the same saved team designs.</sub>
 </div>
 
-### No9Editor 1.2.25 — a separate standalone Windows application
+### Previous editor update — No9Editor 1.2.25
 
 **No9Editor is its own single executable, separate from the game.** In its club and federation forms, authors can select each garment's model and three colors, then preview both sleeve lengths from the front or back. A model button opens a grid of unnamed **72×72 thumbnails**, in numeric order and limited to the playable designs for that garment. UV guides are excluded. The thumbnails and model button use the current club-kit colors for that piece and refresh when those colors change. Selecting a tile closes the grid and keeps the choice on the button. The back preview displays the name and number with their independently selected fonts. Changing one garment keeps the other selections. The game receives the changes through an exported data pack, imported and activated by the player.
 

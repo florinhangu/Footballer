@@ -2,9 +2,24 @@
 
 [Open Footballer Releases](https://github.com/florinhangu/Footballer/releases).
 
-As checked on **28 October 2026**, the Footballer repository has **no published GitHub Releases** or attached APK. This documentation update does not create a release or upload a binary.
+## No9Editor 1.2.26 — 2 November 2026
 
-## Current target
+**[Download the standalone Windows editor](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.26/No9Editor.exe)** · **[Release notes and SHA-256](https://github.com/florinhangu/Footballer/releases/tag/no9editor-v1.2.26)**
+
+This is a separate single-file editor for Windows x86-64, with British English as
+the default and a selectable Romanian catalogue. It includes the independent
+three-piece kit editor, club-coloured 72×72 model grids, custom printing fonts,
+stadium editing and portable projects/data packs. Godot is not required to run it.
+See the [editor guide](EDITOR.md) and [verification notes](VERIFICATION.md).
+
+File: `No9Editor.exe` — **560,848,640 bytes**.
+
+SHA-256: `94dbc37880e91e6b372ff70a892832e30fc7815f5c7c0d56d2a6d154b99f059c`.
+
+The public release includes the executable and `SHA256SUMS.txt`. This release does
+not include an Android game APK.
+
+## Game build target
 
 Android APK, portrait interface, ARM32 and ARM64. No verified iOS export preset or release was found.
 

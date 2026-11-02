@@ -1,5 +1,26 @@
 # Screenshot provenance
 
+## Standalone editor 1.2.26 — British English and application icon
+
+The six UI captures in `media/editor-1.2.26/` come from
+`docs/screenshots/editor-english-2026-11-01/` in the game source at
+[`2f93ecd04be196ffd289210279fe29b0a7306503`](https://github.com/florinhangu/no9dayone/commit/2f93ecd04be196ffd289210279fe29b0a7306503).
+They show the exported standalone No9Editor 1.2.26 pack, with its own database and
+the Dummy audio driver, without game autoloads other than the independent shared
+localisation service. They were visually inspected and copied without retouching.
+
+`english-federations.png`, `english-clubs.png` and `english-rules.png` show the
+translated forms, English-name search and readable regulations.
+`federation-jersey-models.png`, `federation-shorts-models.png` and
+`federation-kit-back.png` show garment-only, club-coloured model grids and selected
+printing fonts. The application remains separate from the game.
+
+`no9editor-icon.png` is the original No9 football-and-pencil vector artwork,
+rasterised from `assets/editor/no9editor-icon.svg`; it is an application asset,
+rather than a screenshot. The Windows executable embeds multiple icon sizes.
+These images do not establish mobile performance or completion of the game's
+separate dialogue localisation review.
+
 ## Standalone editor 1.2.25 captures
 
 The four images in `media/editor-1.2.25/` are unedited copies of `docs/screenshots/editor-kit-gallery-colors-2026-11-01/` at source commit [`fa41dedaf2bd`](https://github.com/florinhangu/no9dayone/commit/fa41dedaf2bde9fd19ec510f15496ab751a9fe99). They were captured from the separate exported No9Editor 1.2.25 application with audio driver Dummy, then visually inspected. The shirt, shorts and socks popups show the selected team kit colors; the back preview shows independently chosen name and number fonts. They do not show an editor embedded in the game. The earlier media collections below retain their original versions and source snapshots.

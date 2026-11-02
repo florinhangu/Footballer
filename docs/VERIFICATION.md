@@ -1,5 +1,48 @@
 # Verification notes
 
+## Standalone editor 1.2.26: British English — 2 November 2026
+
+The separate Windows editor now defaults to British English, with English (UK)
+and Romanian in independent selectable catalogues. Its six category pages,
+project/pack messages, stadium controls and league descriptions have English
+display text. All 241 distinct league-format descriptions were manually revised
+for football terminology. Conventional English team names are display aliases;
+untouched editable name fields retain their original database values.
+
+| Focused check | Assertions | Failures |
+| --- | ---: | ---: |
+| Localisation, formatted messages, names, persistence, third-language discovery and isolation | 21 | 0 |
+| Editor kit schedules, forms, model galleries and previews | 122 | 0 |
+| Fonts and editor sections | 33 | 0 |
+| All editable package categories, save/export and career application | 23 | 0 |
+
+The catalogue validator checked 31,215 entries per language for locale uniqueness,
+placeholders, formatting tags and unresolved import markers, with zero failures.
+The count includes proper-name aliases rather than only interface sentences.
+The exported application loaded all six editor categories and collected 11,629
+text observations with zero functional failures. A residual scan for the Romanian
+descriptive words found during QA returned zero matches. English-name search,
+language switching and original-value retention were checked.
+
+The final Windows build embeds the original football-and-pencil application icon
+at seven sizes from 16 to 256 px. Windows extracted the expected icon from the
+installed executable, and the desktop shortcut points to its embedded resource.
+The kit capture checks every thumbnail, its 72×72 bound and selection-close
+behaviour for clubs and federations, with front/back font previews.
+
+All verification used isolated storage and the Dummy audio driver. The
+all-category capture reported two unreleased GL textures at shutdown, after
+successful assertions and captures; the kit capture's error output was empty.
+This is Windows desktop evidence, without Android/iOS device validation.
+
+Installed/exported SHA-256:
+`94dbc37880e91e6b372ff70a892832e30fc7815f5c7c0d56d2a6d154b99f059c`.
+The [release](https://github.com/florinhangu/Footballer/releases/tag/no9editor-v1.2.26)
+provides the executable and checksum. The wider game's dialogue/prose review
+continues separately from this editor release.
+
+Source: [editor audit](https://github.com/florinhangu/no9dayone/blob/2f93ecd04be196ffd289210279fe29b0a7306503/docs/audits/editor-english-2026-11-01.md).
+
 ## Standalone editor 1.2.25: thumbnail popups, colors and typography
 
 The exported standalone editor now uses a model button that opens only its garment category, followed by selection and popup close. Model thumbnails are unnamed, no larger than 72×72, sorted numerically and exclude UV guides. They use the current club-kit colors for each piece, refresh when those colors change and keep other garment choices independent. The back preview uses the independently selected name and number fonts.
