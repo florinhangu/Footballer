@@ -33,9 +33,14 @@ career and continue where you left off.
   <img src="media/game/player-attributes.png" width="30%" alt="Technical, tactical and physical player attributes">
 </div>
 
-Career moments give the journey a personal voice: the first trial, a first-team
-debut, a national-team call-up, a transfer, captaincy and the first trophy.
-Success brings new expectations; setbacks give you another reason to improve.
+Career moments draw on **1,485 story variants across 30 milestones**, from the
+first trial and first-team debut to national-team selection, transfers,
+captaincy, trophies and retirement decisions. Original British English scenes
+bring the conversations, nerves, celebrations and quieter moments to life.
+
+<div align="center">
+  <img src="media/game/career-story.png" width="38%" alt="An original British English career story at a player's first trial">
+</div>
 
 ## Step onto the pitch
 

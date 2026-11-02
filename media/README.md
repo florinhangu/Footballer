@@ -6,9 +6,10 @@ separate No9Editor application.
 ## No9: Day One
 
 `game/` contains the career home, fixture calendar, player attributes, weekly
-training, world football, and the 2D and 3D match views. These are desktop captures
-of the game's portrait interface, taken from representative isolated career
-states using the real screens and match renderer.
+training, world football, an original British English career story, and the 2D
+and 3D match views. These are 1080×1920 desktop captures of the game's portrait
+interface, taken from representative isolated career states using the real
+screens and match renderer.
 
 ## No9Editor
 
