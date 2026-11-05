@@ -6,6 +6,8 @@
 
 Current version: **1.2.43**.
 
+[Release history, newest first](releases/README.md) — additions, changes and removals for every published version.
+
 [Download No9Editor.exe](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.43/No9Editor.exe) · [View the editor](EDITOR.md) · [Open the download page](https://github.com/florinhangu/Footballer/releases/tag/no9editor-v1.2.43)
 
 Download the single executable and open it. It includes the runtime, database
