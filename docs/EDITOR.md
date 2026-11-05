@@ -8,7 +8,7 @@
 
 **Clubs · Federations · Kits · Stadiums · Shared data packs**
 
-[Download for Windows 64-bit](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.33/No9Editor.exe) · [Download details](RELEASES.md) · [No9: Day One](../README.md)
+[Download for Windows 64-bit](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.38/No9Editor.exe) · [Download details](RELEASES.md) · [No9: Day One](../README.md)
 
 <img src="../media/editor/club-editor.png" width="92%" alt="The standalone No9Editor club form in British English">
 
@@ -56,7 +56,7 @@ limited. Public authors can edit names without publisher licensing controls.
 
 <div align="center">
   <img src="../media/editor/crest-gallery.png" width="44%" alt="The original crest gallery shown in the selected club's colours">
-  <img src="../media/editor/national-romania.png" width="44%" alt="Romania Football Federation with its country-flag colours">
+  <img src="../media/editor/national-romania.png" width="44%" alt="A national football federation with its country-flag colours">
   <br>
   <img src="../media/editor/international-competition.png" width="44%" alt="European Football Union Champions Trophy in the standalone editor">
   <img src="../media/editor/generic-league-options-en.png" width="44%" alt="Numbered league tiers and separate lettered group identities">
@@ -71,6 +71,15 @@ front or back. Home, away and third kits each have their own choices.
 Name and number printing have separate font selections. Use a bundled font or
 import a TTF/OTF font for your design. Club sponsors, manufacturer logos and
 pitchside advertising can be included in the team's identity.
+
+Choose from **twelve original manufacturer symbols**, including wings, an infinity
+loop, waves, sails and geometric marks. Clubs and national teams receive stable
+default marks, while your own imported artwork remains available. Place the team
+crest and manufacturer on opposite sides of the chest or stack them centrally.
+
+<div align="center">
+  <img src="../media/editor/manufacturer-symbols.png" width="92%" alt="The twelve original kit manufacturer symbols in the standalone editor">
+</div>
 
 <div align="center">
   <img src="../media/editor/kit-models.png" width="49%" alt="Shirt designs previewed in the selected team colours">
@@ -91,8 +100,13 @@ Choose the surrounding environment and inspect the result with rotation, zoom,
 free view and an interior view. Stadium configurations travel with your data
 pack and can appear in the game's 3D matches.
 
+Larger parking requirements add pairs of rows and more columns, keeping each lot
+compact and rectangular, with clear access aisles.
+
 <div align="center">
   <img src="../media/editor/stadium-editor.png" width="96%" alt="Stadium construction controls alongside the editor's live 3D ground preview">
+  <br>
+  <img src="../media/editor/parking.png" width="96%" alt="Rendered stadium parking layouts with two, four, six and eight rows">
 </div>
 
 ## Save it. Share it. Play with it.
@@ -114,6 +128,6 @@ game's normal kit generation resumes.
 
 **Windows 64-bit · Single executable · Approximately 551 MiB**
 
-[Download No9Editor.exe](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.33/No9Editor.exe)
+[Download No9Editor.exe](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.38/No9Editor.exe)
 and open it to start a project. The application includes its runtime, database
 and assets. See [download details](RELEASES.md) for the current version and checksum.

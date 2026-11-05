@@ -22,6 +22,14 @@ first chance at a youth trial. Find a club, negotiate a contract and work toward
 a place in the team. Your form, fitness and performances shape the opportunities
 that follow.
 
+Sit down with the director of football to discuss wages, your place in the squad,
+contract length and the club's plans. Original British English conversations let
+you weigh up the offer and choose your response.
+
+<div align="center">
+  <img src="media/game/contract-negotiation.png" width="38%" alt="Contract negotiations with the director of football and three original English responses">
+</div>
+
 The career follows your player through training weeks, match days, contracts,
 transfers, injuries and recovery. Your profile keeps your attributes, appearances,
 career history and trophies together. Local saves let you return to the same
@@ -92,13 +100,20 @@ offer another side of a footballer's life.
 Home, away and third kits combine independent shirt, shorts and sock designs.
 Club colours, printed names and numbers, and team branding give each side its
 identity. Choose from 84 original crests, coloured from the club palette.
+Twelve original manufacturer marks add another part of each team's identity.
 National-team defaults draw on their country flags. Teams receive seasonal kit
 editions, with separate colour choices for
 the three garments.
 
+<div align="center">
+  <img src="media/game/kit-home.png" width="38%" alt="A home kit in the team's colours with original chest branding and a shorts crest">
+  <img src="media/game/kit-away.png" width="38%" alt="An opposing team's full 3D kit in a live friendly">
+</div>
+
 Stadiums bring together stands, corners, seating, roofs, floodlights, scoreboards,
 advertising and their surroundings. Custom teams, kits and grounds can be created
 and shared with the separate No9Editor application.
+Parking grows in compact blocks of paired rows as larger grounds need more spaces.
 
 ## Create your football world with No9Editor
 
@@ -109,7 +124,7 @@ and shared with the separate No9Editor application.
 
 **Windows 64-bit · British English and Romanian · Portable projects and data packs**
 
-[Explore No9Editor](docs/EDITOR.md) · [Download No9Editor.exe](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.33/No9Editor.exe)
+[Explore No9Editor](docs/EDITOR.md) · [Download No9Editor.exe](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.38/No9Editor.exe)
 
   <img src="media/editor/kit-models.png" width="49%" alt="Visual shirt model selection using the team's kit colours in No9Editor">
   <img src="media/editor/kit-preview.png" width="49%" alt="The complete 3D kit preview with independent name and number fonts">
@@ -123,7 +138,7 @@ own included database; installing Godot is unnecessary.
 ## Get No9
 
 **No9Editor for Windows is available to download.**
-[Download the editor](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.33/No9Editor.exe)
+[Download the editor](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.38/No9Editor.exe)
 or see [download details](docs/RELEASES.md).
 
 A public game build is not available from this repository. The images above show
