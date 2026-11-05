@@ -91,7 +91,9 @@ offer another side of a footballer's life.
 
 Home, away and third kits combine independent shirt, shorts and sock designs.
 Club colours, printed names and numbers, and team branding give each side its
-identity. Teams receive seasonal kit editions, with separate colour choices for
+identity. Choose from 84 original crests, coloured from the club palette.
+National-team defaults draw on their country flags. Teams receive seasonal kit
+editions, with separate colour choices for
 the three garments.
 
 Stadiums bring together stands, corners, seating, roofs, floodlights, scoreboards,
@@ -107,7 +109,7 @@ and shared with the separate No9Editor application.
 
 **Windows 64-bit · British English and Romanian · Portable projects and data packs**
 
-[Explore No9Editor](docs/EDITOR.md) · [Download No9Editor.exe](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.26/No9Editor.exe)
+[Explore No9Editor](docs/EDITOR.md) · [Download No9Editor.exe](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.33/No9Editor.exe)
 
   <img src="media/editor/kit-models.png" width="49%" alt="Visual shirt model selection using the team's kit colours in No9Editor">
   <img src="media/editor/kit-preview.png" width="49%" alt="The complete 3D kit preview with independent name and number fonts">
@@ -121,7 +123,7 @@ own included database; installing Godot is unnecessary.
 ## Get No9
 
 **No9Editor for Windows is available to download.**
-[Download the editor](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.26/No9Editor.exe)
+[Download the editor](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.33/No9Editor.exe)
 or see [download details](docs/RELEASES.md).
 
 A public game build is not available from this repository. The images above show

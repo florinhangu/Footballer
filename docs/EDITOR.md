@@ -8,7 +8,7 @@
 
 **Clubs · Federations · Kits · Stadiums · Shared data packs**
 
-[Download for Windows 64-bit](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.26/No9Editor.exe) · [Download details](RELEASES.md) · [No9: Day One](../README.md)
+[Download for Windows 64-bit](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.33/No9Editor.exe) · [Download details](RELEASES.md) · [No9: Day One](../README.md)
 
 <img src="../media/editor/club-editor.png" width="92%" alt="The standalone No9Editor club form in British English">
 
@@ -25,8 +25,8 @@ Search for teams and grounds, work with league names and membership, and consult
 the competition regulations as you build your project.
 
 The interface is available in **British English and Romanian**, with a language
-selector that remembers your choice. English display names include Real Madrid,
-Steaua Bucharest, Bayern Munich and Red Star Belgrade.
+selector that remembers your choice. Each language has its own catalogue. Club
+and stadium names remain editable, alongside separate town/city and country fields.
 
 | Your creation | What you can choose |
 | --- | --- |
@@ -35,6 +35,32 @@ Steaua Bucharest, Bayern Munich and Red Star Belgrade.
 | Leagues | Names and membership for new careers |
 | Competitions | Names, with readable regulations for reference |
 | Stadiums | Capacity, structures, seating, covering, equipment and surroundings |
+
+## Choose a crest
+
+Browse **84 original crests**, combining seven outlines with twelve shared
+patterns, including stripes, a star, a tree, a cross, mountains and quartered
+squares. Every thumbnail uses the selected team colours.
+
+The **primary colour fills the crest**, the **secondary colour fills its symbol**,
+and the **third colour outlines its border**. With two colours, the border
+uses the secondary colour. Clubs and national teams each start with a default
+crest on the left chest. A central layout places the club crest above the
+manufacturer mark; the shorts carry the crest opposite the number.
+
+National federation palettes use **up to three dominant country-flag colours**.
+Federations are named **Country Football Federation**. Domestic leagues use
+numbered tiers and lettered groups in the selected language. International
+competitions use full organisation names, with compact labels where space is
+limited. Public authors can edit names without publisher licensing controls.
+
+<div align="center">
+  <img src="../media/editor/crest-gallery.png" width="44%" alt="The original crest gallery shown in the selected club's colours">
+  <img src="../media/editor/national-romania.png" width="44%" alt="Romania Football Federation with its country-flag colours">
+  <br>
+  <img src="../media/editor/international-competition.png" width="44%" alt="European Football Union Champions Trophy in the standalone editor">
+  <img src="../media/editor/generic-league-options-en.png" width="44%" alt="Numbered league tiers and separate lettered group identities">
+</div>
 
 ## Design the complete kit
 
@@ -50,7 +76,9 @@ pitchside advertising can be included in the team's identity.
   <img src="../media/editor/kit-models.png" width="49%" alt="Shirt designs previewed in the selected team colours">
   <img src="../media/editor/shorts-models.png" width="49%" alt="A separate visual gallery for shorts designs">
   <br>
-  <img src="../media/editor/kit-preview.png" width="92%" alt="Short- and long-sleeved kit previews from the back, with the chosen printing fonts">
+  <img src="../media/editor/socks-models.png" width="44%" alt="Socks designs shown only in their own garment gallery">
+  <br>
+  <img src="../media/editor/kit-preview.png" width="92%" alt="Short- and long-sleeved 3D kit previews with the chosen crest and printing">
 </div>
 
 ## Build a ground for your club
@@ -84,8 +112,8 @@ game's normal kit generation resumes.
 
 ## Download No9Editor
 
-**Windows 64-bit · Single executable · Approximately 535 MiB**
+**Windows 64-bit · Single executable · Approximately 551 MiB**
 
-[Download No9Editor.exe](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.26/No9Editor.exe)
+[Download No9Editor.exe](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.33/No9Editor.exe)
 and open it to start a project. The application includes its runtime, database
 and assets. See [download details](RELEASES.md) for the current version and checksum.

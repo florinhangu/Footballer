@@ -4,9 +4,9 @@
 
 **Standalone football database, kit and stadium editor for Windows 64-bit.**
 
-Current version: **1.2.26**.
+Current version: **1.2.33**.
 
-[Download No9Editor.exe](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.26/No9Editor.exe) · [View the editor](EDITOR.md) · [Open the download page](https://github.com/florinhangu/Footballer/releases/tag/no9editor-v1.2.26)
+[Download No9Editor.exe](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.33/No9Editor.exe) · [View the editor](EDITOR.md) · [Open the download page](https://github.com/florinhangu/Footballer/releases/tag/no9editor-v1.2.33)
 
 Download the single executable and open it. It includes the runtime, database
 and assets; installing Godot is unnecessary. British English and Romanian are
@@ -14,15 +14,15 @@ available in the language selector.
 
 | File | Size |
 | --- | ---: |
-| `No9Editor.exe` | 560,848,640 bytes, approximately 535 MiB |
+| `No9Editor.exe` | 577,659,808 bytes, approximately 551 MiB |
 
 SHA-256:
 
 ```text
-94dbc37880e91e6b372ff70a892832e30fc7815f5c7c0d56d2a6d154b99f059c
+c86639a6c421b148cf38b6ba9042a4bccb0c07d052197c91945021d5f93ceebd
 ```
 
-[Download SHA256SUMS.txt](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.26/SHA256SUMS.txt).
+[Download SHA256SUMS.txt](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.33/SHA256SUMS.txt).
 
 ## No9: Day One
 
