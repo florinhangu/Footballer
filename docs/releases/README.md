@@ -9,9 +9,9 @@ Published releases, newest first. Publication dates below are the actual GitHub 
 | 1.2.33 | 2026-11-05 | [Added, changed and removed](1.2.33.md) | [GitHub release](https://github.com/florinhangu/Footballer/releases/tag/no9editor-v1.2.33) |
 | 1.2.26 | 2026-11-02 | [Added, changed and removed](1.2.26.md) | [GitHub release](https://github.com/florinhangu/Footballer/releases/tag/no9editor-v1.2.26) |
 
-## Unpublished drafts
+## Archived unpublished builds
 
-These were never public releases. GitHub displays drafts separately for maintainers. They are listed here by version, newest first.
+The five unpublished drafts were archived locally with verified attachments and removed from the GitHub release list. Their notes remain available here, newest first.
 
 | Version | Status |
 | --- | --- |
