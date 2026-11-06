@@ -98,16 +98,16 @@ offer another side of a footballer's life.
 ## Your club's colours
 
 Home, away and third kits combine independent shirt, shorts and sock designs.
-Club colours, printed names and numbers, and team branding give each side its
-identity. Choose from 84 original crests, coloured from the club palette.
+Club palettes reflect current-season sources where documented. Printed names
+and numbers and team branding give each side its identity. Choose from 84 original crests, coloured from the club palette.
 Twelve original manufacturer marks add another part of each team's identity.
 National-team defaults draw on their country flags. Teams receive seasonal kit
 editions, with separate colour choices for
 the three garments.
 
 <div align="center">
-  <img src="media/game/kit-home.png" width="38%" alt="A home kit in the team's colours with original chest branding and a shorts crest">
-  <img src="media/game/kit-away.png" width="38%" alt="An opposing team's full 3D kit in a live friendly">
+  <img src="media/game/kit-home.png" width="38%" alt="Grenoble Foot 38 in blue and white with a club crest and shorts number">
+  <img src="media/game/kit-away.png" width="38%" alt="US Boulogne in red and black in the 3D match view">
 </div>
 
 Stadiums bring together stands, corners, seating, roofs, floodlights, scoreboards,
@@ -133,7 +133,7 @@ data is available, while the stadium layout follows the game's capacity rules.
 [Explore No9Editor](docs/EDITOR.md) · [Download No9Editor.exe](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.43/No9Editor.exe)
 
   <img src="media/editor/kit-models.png" width="49%" alt="Visual shirt model selection using the team's kit colours in No9Editor">
-  <img src="media/editor/kit-preview.png" width="49%" alt="The complete 3D kit preview with independent name and number fonts">
+  <img src="media/editor/kit-preview.png" width="49%" alt="The 3D kit preview in Grenoble's club colours">
 </div>
 
 Edit club and federation identities, design each garment, choose kit-printing

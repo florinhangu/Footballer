@@ -10,7 +10,7 @@
 
 [Download for Windows 64-bit](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.43/No9Editor.exe) · [Download details](RELEASES.md) · [No9: Day One](../README.md)
 
-<img src="../media/editor/club-editor.png" width="92%" alt="The standalone No9Editor club form in British English">
+<img src="../media/editor/club-editor.png" width="92%" alt="The Marseille club form with its white, blue and gold palette in No9Editor">
 
 </div>
 
@@ -87,7 +87,7 @@ crest and manufacturer on opposite sides of the chest or stack them centrally.
   <br>
   <img src="../media/editor/socks-models.png" width="44%" alt="Socks designs shown only in their own garment gallery">
   <br>
-  <img src="../media/editor/kit-preview.png" width="92%" alt="Short- and long-sleeved 3D kit previews with the chosen crest and printing">
+  <img src="../media/editor/kit-preview.png" width="92%" alt="Short- and long-sleeved 3D kit previews in Grenoble's blue and white">
 </div>
 
 ## Build a ground for your club
