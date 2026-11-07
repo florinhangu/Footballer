@@ -90,6 +90,28 @@ crest and manufacturer on opposite sides of the chest or stack them centrally.
   <img src="../media/editor/kit-preview.png" width="92%" alt="Short- and long-sleeved 3D kit previews in Grenoble's blue and white">
 </div>
 
+## Explore equipment templates
+
+Open **Equipment templates** to browse separate 3D galleries for shirts, shorts,
+socks, balls and boots. Playable designs appear as unnamed thumbnails; UV
+reference sheets are excluded. Drag the preview to rotate the equipment on all
+three axes while the camera stays fixed.
+
+Each shirt also shows its matching **Team page · 2D** image in the same colours.
+The Team image follows the selected 3D design automatically. Shirt, shorts and
+sock choices remain independent of one another and use the game's normal kit
+edition rules.
+
+The boot catalogue lets you inspect both boots with traditional cosmetic
+palettes, including white/light grey/dark grey and red/charcoal/charcoal.
+Browsing is visual only and does not assign boots to a team or player.
+
+<div align="center">
+  <img src="../media/editor/equipment-boots.png" width="96%" alt="The standalone editor's 3D boot catalogue with a traditional palette selector and a fixed-camera preview">
+  <br>
+  <img src="../media/editor/equipment-shirts.png" width="96%" alt="A 3D shirt and its matching Team page 2D image in the equipment catalogue">
+</div>
+
 ## Choose the match ball
 
 Give each league and competition its own ball, including national cups. Open the
@@ -152,7 +174,7 @@ ratings apply to new careers only. An authored kit is used for one normal kit
 edition, following the team's usual annual or two-season cycle, before the
 game's normal kit generation resumes.
 
-Screenshots show development build **1.2.51**. The published download below is **1.2.43**.
+Equipment catalogue screenshots show development build **1.2.52**. The published download below is **1.2.43**.
 
 ## Download No9Editor
 

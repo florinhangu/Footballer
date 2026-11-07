@@ -104,7 +104,16 @@ and numbers and team branding give each side its identity. Choose from 84 origin
 Twelve original manufacturer marks add another part of each team's identity.
 National-team defaults draw on their country flags. Teams receive seasonal kit
 editions, with separate colour choices for
-the three garments.
+the three garments. The 2D shirts on your Team page follow the same 3D designs
+and colours, keeping your club's identity consistent between views.
+
+Players wear 3D boots with traditional colour combinations, from white and grey
+to red and charcoal. Boot colours are cosmetic; equipment quality and bonuses
+follow the career's existing inventory and shop rules.
+
+<div align="center">
+  <img src="media/game/boots-palettes.png" width="92%" alt="The saved 3D boot pair in white and grey, red and charcoal, and black and silver">
+</div>
 
 <div align="center">
   <img src="media/game/kit-home.png" width="38%" alt="Grenoble Foot 38 in blue and white with a club crest and shorts number">
