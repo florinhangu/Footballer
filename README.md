@@ -114,11 +114,15 @@ Stadiums bring together stands, corners, seating, roofs, floodlights, scoreboard
 advertising and their surroundings. Custom teams, kits and grounds can be created
 and shared with the separate No9Editor application.
 Parking grows in compact blocks of paired rows as larger grounds need more spaces.
-Documented capacities and seating palettes inform generated grounds where reference
-data is available, while the stadium layout follows the game's capacity rules.
+Grounds use researched capacities where available and generated capacities for
+undocumented venues. Their initial layout grows from a small stand to stands on
+all four sides and connected corner sections. Generated seats take the home
+club's primary colour, or the owning federation's primary colour at a national
+ground. Documented locations guide village, town/city and metropolitan settings,
+with plains/coast or hills/mountains where the geography can be classified.
 
 <div align="center">
-  <img src="media/game/researched-seating.png" width="92%" alt="A generated stadium using the documented seating palette of its home ground">
+  <img src="media/game/stadium-mountain.png" width="45%" alt="A 3D match ground with blue home-team seating and mountain surroundings">
 </div>
 
 ## Create your football world with No9Editor
@@ -130,7 +134,7 @@ data is available, while the stadium layout follows the game's capacity rules.
 
 **Windows 64-bit · British English and Romanian · Portable projects and data packs**
 
-[Explore No9Editor](docs/EDITOR.md) · [Download No9Editor.exe](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.43/No9Editor.exe)
+[Explore No9Editor](docs/EDITOR.md) · [Download No9Editor 1.2.43](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.43/No9Editor.exe)
 
   <img src="media/editor/kit-models.png" width="49%" alt="Visual shirt model selection using the team's kit colours in No9Editor">
   <img src="media/editor/kit-preview.png" width="49%" alt="The 3D kit preview in Grenoble's club colours">
@@ -144,7 +148,7 @@ own included database; installing Godot is unnecessary.
 ## Get No9
 
 **No9Editor for Windows is available to download.**
-[Download the editor](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.43/No9Editor.exe)
+[Download No9Editor 1.2.43](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.43/No9Editor.exe)
 or see [download details](docs/RELEASES.md).
 
 A public game build is not available from this repository. The images above show

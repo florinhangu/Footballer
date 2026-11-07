@@ -8,7 +8,7 @@
 
 **Clubs · Federations · Kits · Stadiums · Shared data packs**
 
-[Download for Windows 64-bit](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.43/No9Editor.exe) · [Download details](RELEASES.md) · [No9: Day One](../README.md)
+[Download 1.2.43 for Windows 64-bit](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.43/No9Editor.exe) · [Download details](RELEASES.md) · [No9: Day One](../README.md)
 
 <img src="../media/editor/club-editor.png" width="92%" alt="The Marseille club form with its white, blue and gold palette in No9Editor">
 
@@ -95,20 +95,27 @@ crest and manufacturer on opposite sides of the chest or stack them centrally.
 Shape the stadium in a **live 3D preview**. Choose stands and corners, seat
 colours and patterns, tiers, roofs and supports. Set capacity and add match-day
 equipment such as dugouts, floodlights, scoreboards and advertising.
+Spectator stair flights share a 1.25 m width across stands, end stands, corners
+and rear access.
 
-Reference records include researched capacities and documented seating palettes
-where available. Undocumented details remain distinguishable from verified facts.
+Reference records include researched capacities and separate physical stadium
+identities for shared grounds. Where a capacity is undocumented, the catalogue
+provides a generated value. Generated seating follows the home club's primary
+colour, or the owning federation's primary colour at a national ground.
 You can set your own capacity, colours and design; authored choices take priority.
 
-Choose the surrounding environment and inspect the result with rotation, zoom,
-free view and an interior view. Stadium configurations travel with your data
+Documented geography provides an initial village, town/city or metropolitan
+setting and plains/coast or hills/mountains. Metropolitan defaults use urban
+centres with at least one million residents. Choose the surrounding environment
+and inspect the result with rotation, zoom, free view and an interior view.
+Stadium configurations travel with your data
 pack and can appear in the game's 3D matches.
 
 Larger parking requirements add pairs of rows and more columns, keeping each lot
 compact and rectangular, with clear access aisles.
 
 <div align="center">
-  <img src="../media/editor/stadium-editor.png" width="96%" alt="Stadium construction controls alongside the editor's live 3D ground preview">
+  <img src="../media/editor/stadium-capacity-preview.png" width="96%" alt="A 3,001-place ground with connected corners, blue club seating and mountain town surroundings in the standalone editor">
   <br>
   <img src="../media/editor/parking.png" width="96%" alt="Rendered stadium parking layouts with two, four, six and eight rows">
 </div>
