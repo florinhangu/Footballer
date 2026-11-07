@@ -121,10 +121,6 @@ club's primary colour, or the owning federation's primary colour at a national
 ground. Documented locations guide village, town/city and metropolitan settings,
 with plains/coast or hills/mountains where the geography can be classified.
 
-<div align="center">
-  <img src="media/game/stadium-mountain.png" width="45%" alt="A 3D match ground with blue home-team seating and mountain surroundings">
-</div>
-
 ## Create your football world with No9Editor
 
 <div align="center">
