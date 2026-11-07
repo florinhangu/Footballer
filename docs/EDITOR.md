@@ -8,7 +8,7 @@
 
 **Clubs · Federations · Kits · Stadiums · Shared data packs**
 
-[Download 1.2.55 for Windows 64-bit](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.55/No9Editor.exe) · [Download details](RELEASES.md) · [No9: Day One](../README.md)
+[Download 1.2.56 for Windows 64-bit](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.56/No9Editor.exe) · [Download details](RELEASES.md) · [No9: Day One](../README.md)
 
 <img src="../media/editor/club-editor.png" width="92%" alt="The Marseille club form with its white, blue and gold palette in No9Editor">
 
@@ -58,7 +58,7 @@ limited. Public authors can edit names without publisher licensing controls.
   <img src="../media/editor/crest-gallery.png" width="44%" alt="The original crest gallery shown in the selected club's colours">
   <img src="../media/editor/federation-editor.png" width="44%" alt="A national football federation with its country-flag colours in the standalone editor">
   <br>
-  <img src="../media/editor/competition-editor.png" width="44%" alt="African Football Union Champions Trophy and international competition regulations">
+  <img src="../media/editor/competition-editor.png" width="44%" alt="Global Football Association World Trophy with its SVG emblem and logo upload">
   <img src="../media/editor/league-editor.png" width="44%" alt="Numbered league tiers in the standalone league editor">
 </div>
 
@@ -90,53 +90,70 @@ crest and manufacturer on opposite sides of the chest or stack them centrally.
   <img src="../media/editor/kit-preview.png" width="92%" alt="Short- and long-sleeved 3D kit previews in Grenoble's blue and white">
 </div>
 
-## Explore equipment templates
+## Design galleries and previews
 
-Open **Equipment templates** to browse separate 3D galleries for shirts, shorts,
-socks, balls and boots. Playable designs appear as unnamed thumbnails; UV
-reference sheets are excluded. Drag the preview to rotate the equipment on all
-three axes while the camera stays fixed.
+Every selected 3D shirt, pair of shorts and pair of socks appears inside its
+**72 × 72 selection button**. Upload 3D stays beside the garment controls.
+Default kits use varied models selected from the game's catalogue.
 
-Each shirt also shows its matching **Team page · 2D** image in the same colours.
-The Team image follows the selected 3D design automatically. Shirt, shorts and
-sock choices remain independent of one another and use the game's normal kit
-edition rules.
+A separate **Team page · 2D** panel sits below the home, away and optional third
+3D kits. Its short-sleeved shirts appear side by side in **72 × 72** tiles, each
+with an Upload 2D button. The 2D design follows the selected 3D shirt automatically;
+short- and long-sleeved 3D shirts share one 2D shirt identity.
 
-The boot catalogue lets you inspect both boots with traditional cosmetic
-palettes, including white/light grey/dark grey and red/charcoal/charcoal.
-Browsing is visual only and does not assign boots to a team or player.
+**Equipment templates** shows artwork created by the user and designs included
+in imported packs. The standard boot catalogue also remains available. Club and
+competition forms can still choose their appropriate built-in game designs.
+UV references and PSD authoring files are excluded from playable galleries.
 
+Rotate the ball on all three axes. Shirts, shorts, socks and boots turn left or
+right through 360 degrees, with the camera fixed. Boot previews use the same mesh,
+skin and idle pose as the match, with increased rendering resolution and a fitted
+view that keeps both boots in frame.
+
+<div align="center">
+  <img src="../media/editor/boot-catalogue.png" width="96%" alt="The standalone boot catalogue with the original match mesh, a fitted preview and horizontal rotation">
+</div>
 
 ## Bring your own artwork
 
-The application creates a **Templates** folder beside its executable. It includes
-UV guides for short- and long-sleeved shirts, shorts, socks, boots and the NOVE
-ball, plus **60 flat shirt templates**. The shirt overlay is supplied separately.
-Use these references in your image editor; no Godot installation is needed.
+The application uses **Assets** beside its executable, with no separate Custom
+folder. It includes six UV guides, a short-sleeved 2D shirt PSD and a separate
+overlay. No Godot installation is needed.
 
-Upload a finished **3D PNG** for a club or federation and, optionally, a matching
-**2D PNG** for the Team page. Short and long sleeves have separate uploads and
-UV guides. A missing sleeve variant uses plain primary-colour fabric. Without
-separate 2D artwork, the Team page renders the selected custom 3D shirt.
+| Artwork | Folder inside Assets |
+| --- | --- |
+| Team-page shirt | Kits/2D_Kits/Shirt |
+| Short-sleeved shirt | Kits/3D_Kits/SS_Shirt |
+| Long-sleeved shirt | Kits/3D_Kits/LS_Shirt |
+| Shorts | Kits/3D_Kits/Shorts |
+| Socks | Kits/3D_Kits/Socks |
+| NOVE ball | Ball/3D |
+| Boots | Boots/3D |
 
-Custom PNGs keep their original colours and any logos, sponsors or manufacturer
-marks already drawn into them. Automatic shirt branding is suppressed; player
-names and numbers still follow your printing choices. The authored kit lasts
-for **one normal kit edition**, beginning with a new career or the next scheduled
-kit replacement. Subsequent editions return to the game's randomisation.
+Team uploads are saved by numeric identity: **8004_home.png**, **8004_away.png**
+and **8004_third.png**, in the corresponding category folder. League and competition
+ball uploads use their numeric ID. Renaming a team does not rename its artwork.
 
-Upload permanent custom logos for clubs, federations, leagues and competitions.
-These remain until explicitly removed and are independent of seasonal kits.
-PNG, JPEG, WebP and SVG logos are supported.
+Custom PNGs keep their colours and any logos, sponsors or manufacturer marks
+already drawn into them. Automatic shirt branding is suppressed; player names
+and numbers still follow the printing choices. Authored kits last for one normal
+kit edition, starting with a new career or the next scheduled replacement.
 
-Save a **.no9project** or export a **.no9pack** to embed your custom artwork.
-Include unassigned custom templates when sharing a template collection. Recipients
-need only your project or pack, rather than your original image files.
+Clubs, federations, leagues and competitions each have a visible **Upload logo…**
+button. League and competition forms display their existing SVG emblem by default.
+Custom PNG, JPEG, WebP or SVG logos remain until explicitly removed.
+
+Save a **.no9project** or export a **.no9pack** to embed your artwork. Include
+unassigned custom templates when sharing a collection. Recipients need only the
+project or pack, rather than the author's original image files.
 
 <div align="center">
-  <img src="../media/editor/custom-kit-upload.png" width="96%" alt="Custom shirt uploads, matching Team-page artwork and a permanent custom club crest in No9Editor">
+  <img src="../media/editor/custom-kit-upload.png" width="96%" alt="72-pixel shirt, shorts and sock selection buttons with separate 3D upload controls">
   <br>
-  <img src="../media/editor/custom-kit-preview.png" width="96%" alt="Separate short- and long-sleeved custom shirts, each using its own UV artwork in the standalone editor">
+  <img src="../media/editor/team-2d-panel.png" width="96%" alt="A separate panel containing the home and away short-sleeved 2D shirts and upload buttons">
+  <br>
+  <img src="../media/editor/custom-kit-preview.png" width="96%" alt="Short- and long-sleeved 3D shirts sharing the same kit identity">
 </div>
 
 ## Choose the match ball
@@ -201,12 +218,12 @@ ratings apply to new careers only. An authored kit is used for one normal kit
 edition, following the team's usual annual or two-season cycle, before the
 game's normal kit generation resumes.
 
-Custom artwork screenshots show **No9Editor 1.2.55**. Other screenshots illustrate the existing editor tools.
+Custom artwork screenshots show **No9Editor 1.2.56**. Other screenshots illustrate the existing editor tools.
 
 ## Download No9Editor
 
 **Windows 64-bit · Single executable · Approximately 570 MiB**
 
-[Download No9Editor.exe](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.55/No9Editor.exe)
+[Download No9Editor.exe](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.56/No9Editor.exe)
 and open it to start a project. The application includes its runtime, database
 and assets. See [download details](RELEASES.md) for the current version and checksum.

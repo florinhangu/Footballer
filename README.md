@@ -154,7 +154,7 @@ with plains/coast or hills/mountains where the geography can be classified.
 
 **Windows 64-bit · British English and Romanian · Portable projects and data packs**
 
-[Explore No9Editor](docs/EDITOR.md) · [Download No9Editor 1.2.55](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.55/No9Editor.exe)
+[Explore No9Editor](docs/EDITOR.md) · [Download No9Editor 1.2.56](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.56/No9Editor.exe)
 
   <img src="media/editor/kit-models.png" width="49%" alt="Visual shirt model selection using the team's kit colours in No9Editor">
   <img src="media/editor/kit-preview.png" width="49%" alt="The 3D kit preview in Grenoble's club colours">
@@ -168,7 +168,7 @@ own included database; installing Godot is unnecessary.
 ## Get No9
 
 **No9Editor for Windows is available to download.**
-[Download No9Editor 1.2.55](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.55/No9Editor.exe)
+[Download No9Editor 1.2.56](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.56/No9Editor.exe)
 or see [download details](docs/RELEASES.md).
 
 A public game build is not available from this repository. The images above show
