@@ -8,7 +8,7 @@
 
 **Clubs · Federations · Kits · Stadiums · Shared data packs**
 
-[Download 1.2.43 for Windows 64-bit](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.43/No9Editor.exe) · [Download details](RELEASES.md) · [No9: Day One](../README.md)
+[Download 1.2.55 for Windows 64-bit](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.55/No9Editor.exe) · [Download details](RELEASES.md) · [No9: Day One](../README.md)
 
 <img src="../media/editor/club-editor.png" width="92%" alt="The Marseille club form with its white, blue and gold palette in No9Editor">
 
@@ -106,10 +106,37 @@ The boot catalogue lets you inspect both boots with traditional cosmetic
 palettes, including white/light grey/dark grey and red/charcoal/charcoal.
 Browsing is visual only and does not assign boots to a team or player.
 
+
+## Bring your own artwork
+
+The application creates a **Templates** folder beside its executable. It includes
+UV guides for short- and long-sleeved shirts, shorts, socks, boots and the NOVE
+ball, plus **60 flat shirt templates**. The shirt overlay is supplied separately.
+Use these references in your image editor; no Godot installation is needed.
+
+Upload a finished **3D PNG** for a club or federation and, optionally, a matching
+**2D PNG** for the Team page. Short and long sleeves have separate uploads and
+UV guides. A missing sleeve variant uses plain primary-colour fabric. Without
+separate 2D artwork, the Team page renders the selected custom 3D shirt.
+
+Custom PNGs keep their original colours and any logos, sponsors or manufacturer
+marks already drawn into them. Automatic shirt branding is suppressed; player
+names and numbers still follow your printing choices. The authored kit lasts
+for **one normal kit edition**, beginning with a new career or the next scheduled
+kit replacement. Subsequent editions return to the game's randomisation.
+
+Upload permanent custom logos for clubs, federations, leagues and competitions.
+These remain until explicitly removed and are independent of seasonal kits.
+PNG, JPEG, WebP and SVG logos are supported.
+
+Save a **.no9project** or export a **.no9pack** to embed your custom artwork.
+Include unassigned custom templates when sharing a template collection. Recipients
+need only your project or pack, rather than your original image files.
+
 <div align="center">
-  <img src="../media/editor/equipment-boots.png" width="96%" alt="The standalone editor's 3D boot catalogue with a traditional palette selector and a fixed-camera preview">
+  <img src="../media/editor/custom-kit-upload.png" width="96%" alt="Custom shirt uploads, matching Team-page artwork and a permanent custom club crest in No9Editor">
   <br>
-  <img src="../media/editor/equipment-shirts.png" width="96%" alt="A 3D shirt and its matching Team page 2D image in the equipment catalogue">
+  <img src="../media/editor/custom-kit-preview.png" width="96%" alt="Separate short- and long-sleeved custom shirts, each using its own UV artwork in the standalone editor">
 </div>
 
 ## Choose the match ball
@@ -174,12 +201,12 @@ ratings apply to new careers only. An authored kit is used for one normal kit
 edition, following the team's usual annual or two-season cycle, before the
 game's normal kit generation resumes.
 
-Equipment catalogue screenshots show development build **1.2.52**. The published download below is **1.2.43**.
+Custom artwork screenshots show **No9Editor 1.2.55**. Other screenshots illustrate the existing editor tools.
 
 ## Download No9Editor
 
-**Windows 64-bit · Single executable · Approximately 551 MiB**
+**Windows 64-bit · Single executable · Approximately 570 MiB**
 
-[Download No9Editor.exe](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.43/No9Editor.exe)
+[Download No9Editor.exe](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.55/No9Editor.exe)
 and open it to start a project. The application includes its runtime, database
 and assets. See [download details](RELEASES.md) for the current version and checksum.

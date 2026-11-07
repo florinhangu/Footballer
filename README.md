@@ -68,6 +68,11 @@ follow the play. Separate 11-a-side friendlies are available for football outsid
 the career schedule. League and competition data packs can each select a
 match ball, using the NOVE 3D model and a standard black-and-white option.
 
+<div align="center">
+  <img src="media/game/match-ball-at-feet.png" width="43%" alt="An outfield player with the NOVE ball at his feet, wearing the current 3D boots and kit">
+  <img src="media/game/match-running-without-ball.png" width="43%" alt="A player running off the ball in a live 3D friendly, with long sleeves and coloured boots">
+</div>
+
 ## Earn your place
 
 Choose from **20 interactive football exercises** covering ball control, passing,
@@ -107,13 +112,14 @@ editions, with separate colour choices for
 the three garments. The 2D shirts on your Team page follow the same 3D designs
 and colours, keeping your club's identity consistent between views.
 
-Players wear 3D boots with traditional colour combinations, from white and grey
-to red and charcoal. Boot colours are cosmetic; equipment quality and bonuses
-follow the career's existing inventory and shop rules.
+Choose one of six basic boot palettes when creating your player. The creator,
+sports shop and inventory show colour swatches, while the selected boots are
+worn in 3D matches. Shop offers
+use 25 traditional palettes, from white and grey to red and charcoal. Buy a pair,
+equip it from your inventory and carry its colours into your next match.
+Palettes are cosmetic; quality, wear and attribute effects follow the shop and
+inventory rules independently.
 
-<div align="center">
-  <img src="media/game/boots-palettes.png" width="92%" alt="The saved 3D boot pair in white and grey, red and charcoal, and black and silver">
-</div>
 
 <div align="center">
   <img src="media/game/kit-home.png" width="38%" alt="Grenoble Foot 38 in blue and white with a club crest and shorts number">
@@ -122,7 +128,10 @@ follow the career's existing inventory and shop rules.
 
 Stadiums bring together stands, corners, seating, roofs, floodlights, scoreboards,
 advertising and their surroundings. Custom teams, kits and grounds can be created
-and shared with the separate No9Editor application.
+and shared with the separate No9Editor application. Upload finished kit PNGs
+with your own colours and branding. Authored kits enter the next normal kit
+edition, while separately uploaded club and competition crests remain until
+removed.
 Parking grows in compact blocks of paired rows as larger grounds need more spaces.
 Grounds use researched capacities where available and generated capacities for
 undocumented venues. Their initial layout grows from a small stand to stands on
@@ -130,6 +139,11 @@ all four sides and connected corner sections. Generated seats take the home
 club's primary colour, or the owning federation's primary colour at a national
 ground. Documented locations guide village, town/city and metropolitan settings,
 with plains/coast or hills/mountains where the geography can be classified.
+
+<div align="center">
+  <img src="media/game/match-substitutes-bench.png" width="43%" alt="Match-day substitutes and staff in the dugout beside the pitch">
+  <img src="media/game/match-stadium-overview.png" width="43%" alt="The actual 3D match ground, stands, pitch and surrounding neighbourhood">
+</div>
 
 ## Create your football world with No9Editor
 
@@ -140,7 +154,7 @@ with plains/coast or hills/mountains where the geography can be classified.
 
 **Windows 64-bit · British English and Romanian · Portable projects and data packs**
 
-[Explore No9Editor](docs/EDITOR.md) · [Download No9Editor 1.2.43](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.43/No9Editor.exe)
+[Explore No9Editor](docs/EDITOR.md) · [Download No9Editor 1.2.55](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.55/No9Editor.exe)
 
   <img src="media/editor/kit-models.png" width="49%" alt="Visual shirt model selection using the team's kit colours in No9Editor">
   <img src="media/editor/kit-preview.png" width="49%" alt="The 3D kit preview in Grenoble's club colours">
@@ -154,7 +168,7 @@ own included database; installing Godot is unnecessary.
 ## Get No9
 
 **No9Editor for Windows is available to download.**
-[Download No9Editor 1.2.43](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.43/No9Editor.exe)
+[Download No9Editor 1.2.55](https://github.com/florinhangu/Footballer/releases/download/no9editor-v1.2.55/No9Editor.exe)
 or see [download details](docs/RELEASES.md).
 
 A public game build is not available from this repository. The images above show
