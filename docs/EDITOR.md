@@ -32,8 +32,8 @@ and stadium names remain editable, alongside separate town/city and country fiel
 | --- | --- |
 | Clubs | Names, short names, ratings, colours, stadiums, kits and branding |
 | Federations | Names, national-team ratings, colours, national stadiums and kits |
-| Leagues | Names and membership for new careers |
-| Competitions | Names, with readable regulations for reference |
+| Leagues | Names, membership for new careers and a separate match ball |
+| Competitions | Names, a separate match ball and readable regulations for reference |
 | Stadiums | Capacity, structures, seating, covering, equipment and surroundings |
 
 ## Choose a crest
@@ -90,6 +90,23 @@ crest and manufacturer on opposite sides of the chest or stack them centrally.
   <img src="../media/editor/kit-preview.png" width="92%" alt="Short- and long-sleeved 3D kit previews in Grenoble's blue and white">
 </div>
 
+## Choose the match ball
+
+Give each league and competition its own ball, including national cups. Open the
+visual gallery to choose a playable design, or use the standard black-and-white
+NOVE ball. UV reference sheets are kept out of the selection.
+
+Inspect the selected ball in a **separate 3D preview**. Drag to rotate it freely;
+right-drag rotates the third axis. The camera stays fixed. Each competition’s
+choice travels with its data pack and is used in that competition’s 3D matches.
+Training and friendlies use the standard ball.
+
+<div align="center">
+  <img src="../media/editor/ball-preview.png" width="96%" alt="A league's separate NOVE match-ball preview in the standalone editor, with a fixed camera and rotation on three axes">
+  <br>
+  <img src="../media/editor/ball-gallery.png" width="96%" alt="The match-ball gallery showing the standard black-and-white NOVE ball without the UV reference sheet">
+</div>
+
 ## Build a ground for your club
 
 Shape the stadium in a **live 3D preview**. Choose stands and corners, seat
@@ -134,6 +151,8 @@ presentation changes at the next season boundary. League membership and initial
 ratings apply to new careers only. An authored kit is used for one normal kit
 edition, following the team's usual annual or two-season cycle, before the
 game's normal kit generation resumes.
+
+Screenshots show development build **1.2.51**. The published download below is **1.2.43**.
 
 ## Download No9Editor
 

@@ -65,7 +65,8 @@ part of your career.
 The 3D view brings players, match officials, home and away kits, spectators,
 dugouts and stadiums onto the pitch. Camera and match-speed controls let you
 follow the play. Separate 11-a-side friendlies are available for football outside
-the career schedule.
+the career schedule. League and competition data packs can each select a
+match ball, using the NOVE 3D model and a standard black-and-white option.
 
 ## Earn your place
 
